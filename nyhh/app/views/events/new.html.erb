@@ -1,1 +1,4 @@
-This is where the user will add an event
+<%= form_for @event do |f| %>
+<%= f.text_field :event_name %>
+<%= f.submit class:"btn" %>
+<% end %>

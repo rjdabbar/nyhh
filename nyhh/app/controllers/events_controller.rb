@@ -12,11 +12,17 @@ class EventsController < ApplicationController
   end
 
   def new
-    events = Event.new
+    @event = Event.new
   end
 
   def create
-    events = Event.new
+    # Create a new event
+    @event = Event.new(params.require(:event).permit(:event_name))
+    if @event.save
+      redirect_to events_path
+    else
+      redirect_to new_event_path
+    end
   end
 
   def edit
