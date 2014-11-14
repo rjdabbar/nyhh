@@ -1,2 +1,5 @@
 This will be the event listing page
-<%= link_to new_event_path %>
+<p><% @event.each do |e| %></p>
+<p><%= e.event_name %>    <%=	e.location %></p>
+<% end %>
+<p><%= link_to 'new event', new_event_path, class:"btn btn-default" %></p>
