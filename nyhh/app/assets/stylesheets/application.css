@@ -5,3 +5,19 @@
  *= require_self
  *= require_tree .
 */
+
+.body {
+	background-image: url("/assets/bg.jpeg");
+	background-size: cover;
+}
+.landing_title {
+	color: white;
+	text-align: center;
+	padding-top: 5%;
+}
+.landing_desc {
+	color: white;
+	text-align: center;
+	padding-top: 1%;
+	
+}

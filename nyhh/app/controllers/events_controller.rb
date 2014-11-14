@@ -26,7 +26,8 @@ class EventsController < ApplicationController
       :ticket_price, 
       :ticket_add_1, 
       :ticket_add_2, 
-      :featured))
+      :featured,
+      :approved))
     if @event.save
       redirect_to events_path
     else
@@ -47,7 +48,7 @@ class EventsController < ApplicationController
       redirect_to admin_root_path
     end
   end
-  
+
   def permitted_params
       params.permit event: [ :event_name, 
       :location, 
@@ -57,6 +58,7 @@ class EventsController < ApplicationController
       :ticket_price, 
       :ticket_add_1, 
       :ticket_add_2, 
-      :featured ]
+      :featured,
+      :approved ]
     end
 end

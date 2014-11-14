@@ -6,5 +6,6 @@
 <p><%= f.text_field :end_time, placeholder:"End Time" %></p>
 <p><%= f.text_field :ticket_price, placeholder:"Ticket Price" %></p>
 <p><%= f.hidden_field :featured, value:'false' %></p>
+<p><%= f.hidden_field :approved, value:'pending' %></p>
 <p><%= f.submit class:"btn" %></p>
 <% end %>
