@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/activeadmin/activeadmin.git
-  revision: 99d76711783c229965095d4b818d02b46093ba5e
+  revision: 3ab53c96afe8feac27a87641555fa0b56ac3c78f
   specs:
     activeadmin (1.0.0.pre)
       arbre (~> 1.0, >= 1.0.2)
@@ -48,7 +48,7 @@ GEM
     arbre (1.0.2)
       activesupport (>= 3.0.0)
     arel (5.0.1.20140414130214)
-    bcrypt (3.1.7)
+    bcrypt (3.1.9)
     bourbon (3.2.3)
       sass (~> 3.2)
       thor
@@ -61,15 +61,16 @@ GEM
       execjs
     coffee-script-source (1.8.0)
     commonjs (0.2.7)
-    devise (3.2.4)
+    devise (3.4.1)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
       railties (>= 3.2.6, < 5)
+      responders
       thread_safe (~> 0.1)
       warden (~> 1.2.3)
     erubis (2.7.0)
     execjs (2.2.2)
-    formtastic (3.0.0)
+    formtastic (3.1.0)
       actionpack (>= 3.2.13)
     formtastic_i18n (0.1.1)
     has_scope (0.6.0.rc)
@@ -82,7 +83,7 @@ GEM
       has_scope (~> 0.6.0.rc)
       railties (>= 3.2, < 4.2)
       responders (~> 1.0)
-    jbuilder (2.2.4)
+    jbuilder (2.2.5)
       activesupport (>= 3.0.0, < 5)
       multi_json (~> 1.2)
     jquery-rails (3.1.2)
