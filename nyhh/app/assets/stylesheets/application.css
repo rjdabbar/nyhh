@@ -7,7 +7,7 @@
 */
 
 .body {
-	background-image: url("/assets/bg.jpeg");
+
 	background-size: cover;
 }
 .landing_title {
@@ -21,3 +21,29 @@
 	padding-top: 1%;
 	
 }
+.navigation_bar {
+	background-color: white;
+	text-align: center;
+	padding-top: 1%; 
+	margin-bottom: 5%;
+
+}
+.navbar! {
+	border-radius: 0px;
+}
+.nav_title ul li a {
+	text-decoration: none;
+	color: #000;
+
+}
+.nav_title ul li{
+	list-style-type: none;
+	display:  inline;
+	font-size: 40px;
+	text-decoration: none;
+	margin-top: 3%;
+}
+.listing_avatar {
+	width: 100%;
+}
+

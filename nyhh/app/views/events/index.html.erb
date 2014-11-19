@@ -1,5 +1,68 @@
-This will be the event listing page
-<p><% @event.each do |e| %></p>
-<p><%= e.event_name %>    <%=	e.location %><%= image_tag e.avatar.url(:thumb) %></p>
-<% end %>
-<p><%= link_to 'new event', new_event_path, class:"btn btn-default" %></p>
+<div class="row">
+	<div class="col-md-4 col-md-offset-2">
+		<h3><%= @event.last.event_name %></br><%= @event.last.location %></h3>
+		<hr>
+	</div>
+	<div class="col-md-4">
+		<h3><%= @event.last.event_name %></br><%= @event.last.location %></h3>
+		<hr>
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-4 col-md-offset-2">
+		<div class="col-md-6">
+			<%= image_tag @event.last.avatar.url(:medium), class:'listing_avatar' %>			
+		</div>
+		<div class="col-md-6">
+			<h4><%= @event.last.location %></h4>
+			<h3><%= @event.last.ticket_price %></h3>
+			<h3><%= @event.last.start_time %></h3>
+			<button>More Details</button>			
+		</div>
+	</div>
+	<div class="col-md-4">
+		<div class="col-md-6">
+			<%= image_tag @event.last.avatar.url(:medium), class:'listing_avatar' %>			
+		</div>
+		<div class="col-md-6">
+			<h4><%= @event.last.location %></h4>
+			<h3><%= @event.last.ticket_price %></h3>
+			<h3><%= @event.last.start_time %></h3>
+			<button>More Details</button>			
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-4 col-md-offset-2">
+		<h3><%= @event.last.event_name %></br><%= @event.last.location %></h3>
+		<hr>
+	</div>
+	<div class="col-md-4">
+		<h3><%= @event.last.event_name %></br><%= @event.last.location %></h3>
+		<hr>
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-4 col-md-offset-2">
+		<div class="col-md-6">
+			<%= image_tag @event.last.avatar.url(:medium), class:'listing_avatar' %>			
+		</div>
+		<div class="col-md-6">
+			<h4><%= @event.last.location %></h4>
+			<h3><%= @event.last.ticket_price %></h3>
+			<h3><%= @event.last.start_time %></h3>
+			<button>More Details</button>			
+		</div>
+	</div>
+	<div class="col-md-4">
+		<div class="col-md-6">
+			<%= image_tag @event.last.avatar.url(:medium), class:'listing_avatar' %>			
+		</div>
+		<div class="col-md-6">
+			<h4><%= @event.last.location %></h4>
+			<h3><%= @event.last.ticket_price %></h3>
+			<h3><%= @event.last.start_time %></h3>
+			<button>More Details</button>			
+		</div>
+	</div>
+</div>
