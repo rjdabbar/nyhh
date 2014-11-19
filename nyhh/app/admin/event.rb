@@ -9,7 +9,8 @@ ActiveAdmin.register Event do
       :ticket_price, 
       :ticket_add_1, 
       :ticket_add_2, 
-      :featured ]
+      :featured,
+      :approved ]
     end
   end
   # See permitted parameters documentation:

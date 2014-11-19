@@ -13,6 +13,8 @@ class EventsController < ApplicationController
 
   def new
     @event = Event.new
+    @user = User.all
+
   end
 
   def create
@@ -27,7 +29,10 @@ class EventsController < ApplicationController
       :ticket_add_1, 
       :ticket_add_2, 
       :featured,
-      :approved))
+      :approved,
+      :user_id,
+      :avatar
+      ))
     if @event.save
       redirect_to events_path
     else

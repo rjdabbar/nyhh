@@ -10,7 +10,7 @@ class CreateEvents < ActiveRecord::Migration
       t.string :ticket_add_1
       t.string :ticket_add_2
       t.boolean :featured
-
+      t.string :approved
       t.timestamps
     end
   end

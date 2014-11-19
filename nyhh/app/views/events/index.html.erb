@@ -1,5 +1,5 @@
 This will be the event listing page
 <p><% @event.each do |e| %></p>
-<p><%= e.event_name %>    <%=	e.location %></p>
+<p><%= e.event_name %>    <%=	e.location %><%= image_tag e.avatar.url(:thumb) %></p>
 <% end %>
 <p><%= link_to 'new event', new_event_path, class:"btn btn-default" %></p>
