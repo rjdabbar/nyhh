@@ -9,15 +9,49 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
+<<<<<<< HEAD
 gem 'spring',        group: :development
+=======
+
+# Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
+gem 'spring',            group: :development
+# Better errors and binding of caller for better debugging during dev
+gem "better_errors",     group: :development
+gem "binding_of_caller", group: :development
+>>>>>>> dad9997fc3c67f5d60cf770211aa9d98cdae203a
 gem 'libv8'
 gem 'less-rails'  
 gem 'therubyracer'
 gem 'twitter-bootstrap-rails'
 gem 'activeadmin', github: 'activeadmin'
 gem 'devise'
+<<<<<<< HEAD
 gem "paperclip", "~> 4.2"
 gem 'rmagick', '2.13.2'
 gem 'groupdate'
 gem 'bootstrap-datepicker-rails'
+=======
+
+# Paperclip is for attachments
+gem "paperclip", "~> 4.2"
+
+
+# Geocoder to help with google maps linking
+gem "geocoder"
+
+# Added for attr_accessible
+gem 'protected_attributes'
+
+# Use ActiveModel has_secure_password
+# gem 'bcrypt', '~> 3.1.7'
+
+# Use unicorn as the app server
+# gem 'unicorn'
+
+# Use Capistrano for deployment
+# gem 'capistrano-rails', group: :development
+
+# Use debugger
+# gem 'debugger', group: [:development, :test]
+>>>>>>> dad9997fc3c67f5d60cf770211aa9d98cdae203a
 

@@ -8,6 +8,8 @@ class EventsController < ApplicationController
   end
 
   def show
+
+    @event = Event.find(params[:id])
     events = Event.all
   end
 
@@ -23,17 +25,22 @@ class EventsController < ApplicationController
       :event_name, 
       :location, 
       :borough, 
-      :start_time, 
-      :end_time, 
+      :start_time,
+     :end_time,
       :ticket_price, 
       :ticket_add_1, 
       :ticket_add_2, 
       :featured,
+<<<<<<< HEAD
       :approved,
       :user_id,
       :avatar,
       :date
       ))
+=======
+      :approved))
+    raise
+>>>>>>> dad9997fc3c67f5d60cf770211aa9d98cdae203a
     if @event.save
       redirect_to events_path
     else
@@ -67,4 +74,27 @@ class EventsController < ApplicationController
       :featured,
       :approved ]
     end
+
+    # def parse_params_start params
+
+
+    #   datetime = DateTime.new(params[:start_time(1i)].to_i, params[:start_time(2i)].to_i, 
+    #                     params[:start_time(3i)].to_i, params[:start_time(4i)].to_i,
+    #                     params[:start_time(5i)].to_i)
+
+
+
+    # end
+
+    # def parse_params_end params
+
+    #   datetime = DateTime.new(params[:end_time(1i)].to_i, params[:end_time(2i)].to_i, 
+    #                     params[:end_time(3i)].to_i, params[:end_time(4i)].to_i,
+    #                     params[:end_time(5i)].to_i)
+
+
+
+    # end
+
+
 end

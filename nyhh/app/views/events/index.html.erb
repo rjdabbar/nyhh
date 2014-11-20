@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div class="row">
 	<div class="col-md-4 col-md-offset-2">
 		<h3><%= @event.last.event_name %></br><%= @event.last.location %></h3>
@@ -64,3 +65,10 @@
 		</div>
 	</div>
 </div>
+=======
+This will be the event listing page
+<p><% @event.each do |e| %></p>
+<p><%= link_to e.event_name, e %>    <%=	e.location %></p>
+<% end %>
+<p><%= link_to 'new event', new_event_path, class:"btn btn-default" %></p>
+>>>>>>> dad9997fc3c67f5d60cf770211aa9d98cdae203a

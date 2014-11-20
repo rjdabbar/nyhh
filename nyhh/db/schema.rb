@@ -11,7 +11,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20141120185216) do
+=======
+ActiveRecord::Schema.define(version: 20141120182014) do
+>>>>>>> dad9997fc3c67f5d60cf770211aa9d98cdae203a
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -53,14 +57,13 @@ ActiveRecord::Schema.define(version: 20141120185216) do
     t.string   "event_name"
     t.string   "location"
     t.string   "borough"
-    t.string   "start_time"
-    t.string   "end_time"
     t.string   "ticket_price"
     t.string   "ticket_add_1"
     t.string   "ticket_add_2"
     t.boolean  "featured"
     t.datetime "created_at"
     t.datetime "updated_at"
+<<<<<<< HEAD
     t.integer  "user_id"
     t.string   "approved"
     t.string   "avatar_file_name"
@@ -68,6 +71,18 @@ ActiveRecord::Schema.define(version: 20141120185216) do
     t.integer  "avatar_file_size"
     t.datetime "avatar_updated_at"
     t.string   "date"
+=======
+    t.boolean  "approved"
+    t.string   "flyer_file_name"
+    t.string   "flyer_content_type"
+    t.integer  "flyer_file_size"
+    t.datetime "flyer_updated_at"
+    t.text     "description"
+    t.float    "latitude"
+    t.float    "longitude"
+    t.datetime "start_time"
+    t.datetime "end_time"
+>>>>>>> dad9997fc3c67f5d60cf770211aa9d98cdae203a
   end
 
   create_table "users", force: true do |t|

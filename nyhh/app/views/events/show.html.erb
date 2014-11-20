@@ -1,1 +1,14 @@
-This page will be additional details based on an event
+
+
+<div class="event-image">
+  <p>LEFT JUSTIFY: @event.event_image</p>
+</div>
+
+<div class="event-details">
+  <b>RIGHT JUSTIFY</b>
+  <p><%= @event.event_name %></p>
+  <p>Start Time: <%= @event.start_time.to_formatted_s(:long)   %></p>
+  <p>End Time: <%= @event.end_time.to_formatted_s(:long)   %></p>
+  <p>Price: <%=  number_to_currency(@event.ticket_price) %></p>
+  <p>Location: <%= link_to @event.location, "http://maps.google.com/#{@event.latitude},#{@event.longitude}" %> <p>
+  </div>
