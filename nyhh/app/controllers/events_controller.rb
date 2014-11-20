@@ -23,8 +23,8 @@ class EventsController < ApplicationController
       :event_name, 
       :location, 
       :borough, 
-      parse_params_start(params), 
-      parse_params_end(params), 
+      :start_time,
+     :end_time,
       :ticket_price, 
       :ticket_add_1, 
       :ticket_add_2, 
@@ -65,27 +65,26 @@ class EventsController < ApplicationController
       :approved ]
     end
 
-    def parse_params_start params
-
-      datetime = Time.new(params["start_time(1i)"].to_i, params["start_time(2i)"].to_i, 
-                        params["start_time(3i)"].to_i, params["start_time(4i)"].to_i,
-                        params["start_time(5i)"].to_i)
-
-      datetime.to_sym
+    # def parse_params_start params
 
 
-    end
-
-    def parse_params_end params
-
-      datetime = Time.new(params["end_time(1i)"].to_i, params["end_time(2i)"].to_i, 
-                        params["end_time(3i)"].to_i, params["end_time(4i)"].to_i,
-                        params["end_time(5i)"].to_i)
-
-      datetime.to_sym
+    #   datetime = DateTime.new(params[:start_time(1i)].to_i, params[:start_time(2i)].to_i, 
+    #                     params[:start_time(3i)].to_i, params[:start_time(4i)].to_i,
+    #                     params[:start_time(5i)].to_i)
 
 
-    end
+
+    # end
+
+    # def parse_params_end params
+
+    #   datetime = DateTime.new(params[:end_time(1i)].to_i, params[:end_time(2i)].to_i, 
+    #                     params[:end_time(3i)].to_i, params[:end_time(4i)].to_i,
+    #                     params[:end_time(5i)].to_i)
+
+
+
+    # end
 
 
 end
