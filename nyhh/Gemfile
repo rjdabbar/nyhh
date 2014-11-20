@@ -19,4 +19,5 @@ gem 'devise'
 gem "paperclip", "~> 4.2"
 gem 'rmagick', '2.13.2'
 gem 'groupdate'
+gem 'bootstrap-datepicker-rails'
 

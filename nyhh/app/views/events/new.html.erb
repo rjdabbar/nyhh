@@ -7,7 +7,15 @@
 <p><%= f.text_field :ticket_price, placeholder:"Ticket Price" %></p>
 <p><%= f.hidden_field :featured, value:'false' %></p>
 <p><%= f.hidden_field :approved, value:'pending' %></p>
+<p><%= f.text_field :date, class:"datepicker" %></p>
 <p><%= f.hidden_field :user_id, value: current_user.id %></p>
 	<%=	f.file_field :avatar %>
 <p><%= f.submit class:"btn" %></p>
+
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.datepicker').datepicker();
+  });
+</script>
 <% end %>

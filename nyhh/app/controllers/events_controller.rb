@@ -31,7 +31,8 @@ class EventsController < ApplicationController
       :featured,
       :approved,
       :user_id,
-      :avatar
+      :avatar,
+      :date
       ))
     if @event.save
       redirect_to events_path
