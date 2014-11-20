@@ -23,13 +23,14 @@ class EventsController < ApplicationController
       :event_name, 
       :location, 
       :borough, 
-      :start_time, 
-      :end_time, 
+      parse_params_start(params), 
+      parse_params_end(params), 
       :ticket_price, 
       :ticket_add_1, 
       :ticket_add_2, 
       :featured,
       :approved))
+    raise
     if @event.save
       redirect_to events_path
     else
@@ -63,4 +64,28 @@ class EventsController < ApplicationController
       :featured,
       :approved ]
     end
+
+    def parse_params_start params
+
+      datetime = Time.new(params["start_time(1i)"].to_i, params["start_time(2i)"].to_i, 
+                        params["start_time(3i)"].to_i, params["start_time(4i)"].to_i,
+                        params["start_time(5i)"].to_i)
+
+      datetime.to_sym
+
+
+    end
+
+    def parse_params_end params
+
+      datetime = Time.new(params["end_time(1i)"].to_i, params["end_time(2i)"].to_i, 
+                        params["end_time(3i)"].to_i, params["end_time(4i)"].to_i,
+                        params["end_time(5i)"].to_i)
+
+      datetime.to_sym
+
+
+    end
+
+
 end
