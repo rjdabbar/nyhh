@@ -36,6 +36,10 @@ gem 'devise'
 # Paperclip is for attachments
 gem "paperclip", "~> 4.2"
 
+
+# Geocoder to help with google maps linking
+gem "geocoder"
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
