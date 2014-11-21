@@ -3,24 +3,16 @@
 <p><%= f.text_field :location, placeholder:"Enter Location Name" %></p>
 <p><%= f.text_area :description, placeholder:"Enter Description" %></p>
 <p><%= f.select :borough, placeholder:"borough" %></p>
-<p>Start Time: <%= f.datetime_select :start_time %></p>
-<p>End Time: <%= f.datetime_select :end_time %></p>
+<p>Start Time: <%= f.date_select :start_time %></p>
+<p>End Time: <%= f.date_select :end_time %></p>
 <p><%= f.text_field :ticket_price, placeholder:"Ticket Price" %></p>
 <p><%= f.hidden_field :featured, value:'false' %></p>
 <p><%= f.hidden_field :approved, value:'pending' %></p>
-<<<<<<< HEAD
-<p><%= f.text_field :date, class:"datepicker" %></p>
 <p><%= f.hidden_field :user_id, value: current_user.id %></p>
-	<%=	f.file_field :avatar %>
-=======
+<p><%= f.file_field :avatar %></p>
 <p><%= f.file_field :flyer %></p>
->>>>>>> dad9997fc3c67f5d60cf770211aa9d98cdae203a
 <p><%= f.submit class:"btn" %></p>
 
 
-<script type="text/javascript">
-  $(document).ready(function(){
-    $('.datepicker').datepicker();
-  });
-</script>
+
 <% end %>
