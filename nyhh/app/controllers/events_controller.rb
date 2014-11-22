@@ -27,19 +27,17 @@ class EventsController < ApplicationController
       :location, 
       :borough, 
       :start_time,
-      :end_time => end_time
-      # :ticket_price, 
-      # :ticket_add_1, 
-      # :ticket_add_2, 
-      # :featured,
-      # :user_id,
-      # :avatar,
-      # :date,
-      # :approved,
-      # :parse_params_start,
-      # :parse_params_end
+      :end_time,
+      :ticket_price, 
+      :ticket_add_1, 
+      :ticket_add_2, 
+      :featured,
+      :user_id,
+      :avatar,
+      :date,
+      :approved
       ))
-    raise end_time.inspect
+    
     if @event.save
       redirect_to events_path
     else
@@ -91,17 +89,17 @@ class EventsController < ApplicationController
 
     # end
 
-    def end_time
+#     def end_time
 
-     date = DateTime.new(params[:end_time]['1i'], 
-                  params[:end_time]['2i'], 
-                  params[:end_time]['3i'], 
-                  params[:end_time]['4i'],
-                  params[:end_time]['5i'])
-raise date.inspect
+#      date = DateTime.new(params[:end_time]['1i'], 
+#                   params[:end_time]['2i'], 
+#                   params[:end_time]['3i'], 
+#                   params[:end_time]['4i'],
+#                   params[:end_time]['5i'])
+# raise date.inspect
 
 
-    end
+#     end
 
 
 end
