@@ -20,22 +20,32 @@ class EventsController < ApplicationController
   end
 
   def create
-   
+    
     # Create a new event
     @event = Event.new(params.require(:event).permit(
       :event_name, 
       :location, 
-      :borough, 
-      :start_time,
-      :end_time,
+      :borough,
       :ticket_price, 
       :ticket_add_1, 
       :ticket_add_2, 
       :featured,
       :user_id,
-      :avatar,
+      :avatar_file_name,
       :date,
-      :approved
+      :approved,
+      :avatar_content_type,
+      :avatar_file_size,
+      :avatar_updated_at,
+      :flyer_file_name,
+      :flyer_file_size,
+      :flyer_content_type,
+      :flyer_updated_at,
+      :description,
+      :latitude,
+      :longitude,
+      :start,
+      :end
       ))
     
     if @event.save
@@ -69,37 +79,24 @@ class EventsController < ApplicationController
       :ticket_add_2, 
       :featured,
       :user_id,
-      :avatar,
+      :avatar_file_name,
       :date,
       :approved,
-      :parse_params_start,
-      :parse_params_end)
+      :avatar_content_type,
+      :avatar_file_size,
+      :avatar_updated_at,
+      :flyer_file_name,
+      :flyer_file_size,
+      :flyer_content_type,
+      :flyer_updated_at,
+      :description,
+      :latitude,
+      :longitude,
+      :start_time,
+      :end_time
+      )
     end
 
-    # def start_time
-    #  params.permit event: [
-    #     :start_time(1).to_i, 
-    #     :start_time(2)].to_i, 
-    #     :start_time(3)].to_i, 
-    #     :start_time(4)].to_i,
-    #     :start_time(5)].to_i
-    #   ]
-    #  raise datetime
-
-
-    # end
-
-#     def end_time
-
-#      date = DateTime.new(params[:end_time]['1i'], 
-#                   params[:end_time]['2i'], 
-#                   params[:end_time]['3i'], 
-#                   params[:end_time]['4i'],
-#                   params[:end_time]['5i'])
-# raise date.inspect
-
-
-#     end
 
 
 end

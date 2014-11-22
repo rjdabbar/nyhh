@@ -10,7 +10,9 @@ ActiveAdmin.register Event do
       :ticket_add_1, 
       :ticket_add_2, 
       :featured,
-      :approved ]
+      :approved,
+      :start,
+      :end ]
     end
   end
   # See permitted parameters documentation:
