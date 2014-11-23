@@ -12,9 +12,12 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery-ui
+//= require gmaps-auto-complete
 //= require twitter/bootstrap
 //= require turbolinks
 //= require moment
 //= require bootstrap-datetimepicker
 //= require_tree .
+
 
