@@ -1,3 +1,11 @@
+<style>
+#map-canvas {
+	width: 300px;
+	height: 150px;
+}
+</style>
+
+<hr>    
 <div class="row">
 	<div class="col-md-9 col-md-offset-3">
 		<h1><%= @event.event_name %></h1>
@@ -9,11 +17,13 @@
 	</div>
 
 	<div class="col-md-4">
-  <h2><%= @event.location %></h2>
-	<hr>
-	<h4><%= @event.address %></h4>
-  <p>Price: <%=  number_to_currency(@event.ticket_price) %> / <%= @event.start %></p>
-  <p>Description <% @event.description %></p>  
-  
-  </div>
+		<h3><%= @event.location %></h3>
+		<hr>
+		<p><%= @event.address %></p>
+		<%= image_tag "http://maps.google.com/maps/api/staticmap?size=300x150&sensor=false&zoom=16&markers=#{@event.latitude}%2C#{@event.longitude}" %>
+		<p>Price: <%=  number_to_currency(@event.ticket_price) %> / <%= @event.start %></p>
+		<p>Description <% @event.description %></p>  
+
+	</div>
 </div>
+<hr>
