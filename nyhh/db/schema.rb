@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141122230436) do
+ActiveRecord::Schema.define(version: 20141124181901) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -61,20 +61,20 @@ ActiveRecord::Schema.define(version: 20141122230436) do
     t.datetime "updated_at"
     t.integer  "user_id"
     t.string   "approved"
-    t.string   "avatar_file_name"
-    t.string   "avatar_content_type"
-    t.integer  "avatar_file_size"
-    t.datetime "avatar_updated_at"
     t.string   "date"
-    t.string   "flyer_file_name"
-    t.string   "flyer_content_type"
-    t.integer  "flyer_file_size"
-    t.datetime "flyer_updated_at"
     t.text     "description"
     t.float    "latitude"
     t.float    "longitude"
     t.string   "start"
     t.string   "end"
+    t.string   "avatar_file_name"
+    t.string   "avatar_content_type"
+    t.integer  "avatar_file_size"
+    t.datetime "avatar_updated_at"
+    t.string   "flyer_file_name"
+    t.string   "flyer_content_type"
+    t.integer  "flyer_file_size"
+    t.datetime "flyer_updated_at"
   end
 
   create_table "users", force: true do |t|
