@@ -1,11 +1,11 @@
 <div class="container-fluid">
 <div class="row">
   <div class="col-md-12">
-    <div class="col-md-4 event-image">
+    <div class="col-md-4 col-md-offset-2 event-image">
       <p><%=  image_tag   @event.avatar.url(:medium)%></p>
     </div>
 
-    <div class="col-md-8 event-details">
+    <div class="col-md-6 event-details">
       
       <p><%= @event.event_name %></p>
 
