@@ -1,3 +1,4 @@
+require 'chronic'
 class EventsController < ApplicationController
   def home
     events = Event.all
@@ -5,6 +6,7 @@ class EventsController < ApplicationController
 
   def index
     @event = Event.all
+    
   end
 
   def show
@@ -34,6 +36,8 @@ class EventsController < ApplicationController
       :avatar_file_name,
       :date,
       :approved,
+      :avatar,
+      :flyer,
       :avatar_content_type,
       :avatar_file_size,
       :avatar_updated_at,
