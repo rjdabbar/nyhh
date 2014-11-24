@@ -1,14 +1,18 @@
+<div class="container-fluid">
+<div class="row">
+  <div class="col-md-12">
+    <div class="col-md-4 event-image">
+      <p><%=  image_tag   @event.avatar.url(:medium)%></p>
+    </div>
 
+    <div class="col-md-8 event-details">
+      
+      <p><%= @event.event_name %></p>
 
-<div class="event-image">
-  <p>LEFT JUSTIFY: @event.event_image</p>
-</div>
+      <p>Price: <%=  number_to_currency(@event.ticket_price) %></p>
+      <p>Location: <%= link_to @event.location, "http://maps.google.com/#{@event.latitude},#{@event.longitude}" %> <p>
+    </div>
 
-<div class="event-details">
-  <b>RIGHT JUSTIFY</b>
-  <p><%= @event.event_name %></p>
-  <p>Start Time: <%= @event.start_time.to_formatted_s(:long)   %></p>
-  <p>End Time: <%= @event.end_time.to_formatted_s(:long)   %></p>
-  <p>Price: <%=  number_to_currency(@event.ticket_price) %></p>
-  <p>Location: <%= link_to @event.location, "http://maps.google.com/#{@event.latitude},#{@event.longitude}" %> <p>
   </div>
+</div>
+</div>
