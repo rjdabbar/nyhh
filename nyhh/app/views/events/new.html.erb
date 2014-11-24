@@ -3,7 +3,10 @@
   <div class="col-md-12">
     <%= form_for @event do |f| %>
     <p><%= f.text_field :event_name, placeholder:"Enter Event Name" %></p>
-    <p><%= f.text_field :location, :input_html =>{:id => 'gmaps-input-address'}, :placeholder => 'Start typing a place...' %></p>
+    <div id='input'>
+      <%= f.text_field :location, :id => 'gmaps-input-address', :placeholder => 'Enter Address Here' %>
+    </div>
+    
     <p><%= f.text_area :description, placeholder:"Enter Description" %></p>
     <p><%= f.select :borough, placeholder:"borough" %></p>
     <p><%= f.text_field :ticket_price, placeholder:"Ticket Price" %></p>
