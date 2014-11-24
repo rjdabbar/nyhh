@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141124181901) do
+ActiveRecord::Schema.define(version: 20141124194734) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -75,6 +75,11 @@ ActiveRecord::Schema.define(version: 20141124181901) do
     t.string   "flyer_content_type"
     t.integer  "flyer_file_size"
     t.datetime "flyer_updated_at"
+    t.string   "address"
+    t.string   "street"
+    t.string   "city"
+    t.string   "state"
+    t.integer  "zip"
   end
 
   create_table "users", force: true do |t|

@@ -1,14 +1,19 @@
-
-
-<div class="event-image">
-  <p>LEFT JUSTIFY: @event.event_image</p>
+<div class="row">
+	<div class="col-md-9 col-md-offset-3">
+		<h1><%= @event.event_name %></h1>
+	</div>
 </div>
+<div class="row">
+	<div class="col-md-3 col-md-offset-3">
+		<%= image_tag @event.avatar.url(:medium) %>
+	</div>
 
-<div class="event-details">
-  <b>RIGHT JUSTIFY</b>
-  <p><%= @event.event_name %></p>
-  <p>Start Time: <%= @event.start%></p>
-  <p>End Time: <%= @event.end   %></p>
-  <p>Price: <%=  number_to_currency(@event.ticket_price) %></p>
-  <p>Location: <%= link_to @event.location, "http://maps.google.com/#{@event.latitude},#{@event.longitude}" %> <p>
+	<div class="col-md-4">
+  <h2><%= @event.location %></h2>
+	<hr>
+	<h4><%= @event.address %></h4>
+  <p>Price: <%=  number_to_currency(@event.ticket_price) %> / <%= @event.start %></p>
+  <p>Description <% @event.description %></p>  
+  
   </div>
+</div>
