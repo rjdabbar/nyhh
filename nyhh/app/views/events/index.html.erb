@@ -9,11 +9,12 @@
 		<hr>
 		<h2><%= e.location %></h2>
 	</div>
+</div>
 <div class="row">
 	<div class="col-md-8 col-md-offset-2">
 		<div class="col-md-4 col-md-offset-2">
-			<% t = Chronic.parse(e.start) %>
-			<h2><%= e.ticket_price %> | <%= t.strftime("%H:%M")%> </h2>
+			<% t = e.start %>
+			<h2><%= e.ticket_price %> | <%= t %> </h2>
 		</div>
 		<div class="col-md-4 col-md-offset-2">
 			<h2><%= link_to "More Details", event_path(e.id) %></h2>

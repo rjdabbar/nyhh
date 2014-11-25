@@ -6,7 +6,27 @@ class EventsController < ApplicationController
   end
 
   def index
-    @event = Event.all
+    today = params[:format]
+ 
+    
+    if today == '1'
+      t = Time.now.to_s
+      t = Chronic.parse(t).to_s
+      t = t.split
+      t = t[0]
+      @event = Event.where(date: t)
+    elsif today == '2'
+      t = Chronic.parse('tommorow').to_s
+      t = t.split
+      t = t[0]
+      @event = Event.where(date: t)  
+    else 
+      @event = Event.all  
+    end
+
+    
+    # @event = events.sort_by &:created_at
+    
     
   end
 
@@ -23,28 +43,30 @@ class EventsController < ApplicationController
   end
 
   def create
+    t = Chronic.parse(params[:event][:start]).to_s
+    t = t.split
+    t = t[0]
     
     # Create a new event
-    @event = Event.new(params.require(:event).permit(
-      :event_name, 
-      :location, 
-      :borough,
-      :ticket_price, 
-      :ticket_add_1, 
-      :ticket_add_2, 
-      :featured,
-      :user_id,
-      :avatar_file_name,
-      :date,
-      :approved,
-      :avatar,
-      :flyer,
-      :description,
-      :latitude,
-      :longitude,
-      :start,
-      :end
-      ))
+    @event = Event.new(
+      :event_name => params[:event][:event_name], 
+      :location => params[:event][:location], 
+      :borough => params[:event][:borough],
+      :ticket_price => params[:event][:ticket_price], 
+      :ticket_add_1 => params[:event][:ticket_add_1], 
+      :ticket_add_2 => params[:event][:ticket_add_2], 
+      :featured => params[:event][:featured],
+      :user_id => params[:event][:user_id],
+      :date => t,
+      :approved => params[:event][:approved],
+      :avatar => params[:event][:avatar],
+      :flyer => params[:event][:flyer],
+      :description => params[:event][:description],
+      :latitude => params[:event][:latitude],
+      :longitude => params[:event][:longitude],
+      :start => Chronic.parse(params[:event][:start]),
+      :end => Chronic.parse(params[:event][:end])
+      )
     
     if @event.save
       redirect_to events_path
