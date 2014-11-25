@@ -10,6 +10,8 @@
     
     <p><%= f.text_area :description, placeholder:"Enter Description" %></p>
     <p><%= f.select :borough, placeholder:"borough" %></p>
+    <p><%= f.text_field :venue, placeholder:"Enter Venue Name" %></p>
+    <p><%= f.text_field :url, placeholder:"Enter Event Webiste/URL" %></p>
     <p><%= f.text_field :ticket_price, placeholder:"Ticket Price" %></p>
     <p><%= f.hidden_field :featured, value:'false' %></p>
     <p><%= f.hidden_field :approved, value:'pending' %></p>

@@ -6,7 +6,7 @@ class Event < ActiveRecord::Base
   validates_attachment_content_type :avatar, :content_type => /\Aimage\/.*\Z/
   geocoded_by :location
   after_validation :geocode, :if => :location_changed?
-	attr_accessible :event_name, :location, :borough,:ticket_price, :featured,:user_id,:avatar_file_name,:date,:approved,:avatar,:flyer,:description,:latitude,:longitude,:start,:end
+	attr_accessible :event_name, :location, :borough,:ticket_price, :featured,:user_id,:avatar_file_name,:date,:approved,:avatar,:flyer,:description,:latitude,:longitude,:start,:end,:venue,:url
 
 
 end

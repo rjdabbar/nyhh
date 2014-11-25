@@ -43,7 +43,9 @@ class EventsController < ApplicationController
       :latitude,
       :longitude,
       :start,
-      :end
+      :end, 
+      :venue, 
+      :url
       ))
     
     if @event.save
@@ -91,7 +93,9 @@ class EventsController < ApplicationController
       :latitude,
       :longitude,
       :start_time,
-      :end_time
+      :end_time,
+      :venue, 
+      :url
       )
     end
 
