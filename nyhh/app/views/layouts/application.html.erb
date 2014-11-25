@@ -27,13 +27,13 @@
       <div class="col-md-12 nav_title">
         <ul class="nav_title">
             <li>
-            <%= link_to('TODAY / ', destroy_user_session_path, :method => :delete, class:"nav_title ul li") %>        
+            <%= link_to('TODAY / ', events_path('1')) %>        
             </li>
             <li>
-              <%= link_to('TOMORROW / ', destroy_user_session_path, :method => :delete) %>
+              <%= link_to('TOMORROW / ', events_path('2')) %>
             </li>
             <li>
-              <%= link_to('UPCOMING', destroy_user_session_path, :method => :delete) %>
+              <%= link_to('UPCOMING', events_path) %>
             </li>
           </ul>
       </div>
