@@ -58,7 +58,9 @@ class EventsController < ApplicationController
       :latitude => params[:event][:latitude],
       :longitude => params[:event][:longitude],
       :start => Chronic.parse(params[:event][:start]),
-      :end => Chronic.parse(params[:event][:end])
+      :end => Chronic.parse(params[:event][:end]),
+      :venue => params[:event][:venue],
+      :url => params[:event][:url]
       )
 
     
