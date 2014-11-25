@@ -18,9 +18,9 @@
 	</div>
 
 	<div class="col-md-4">
-		<h3><%= @event.location %></h3>
+		<h3><%= @event.venue %></h3>
 		<hr>
-		<p><%= @event.address %></p>
+		<p><%= @event.location %></p>
 		<%= image_tag "http://maps.google.com/maps/api/staticmap?size=300x150&sensor=false&zoom=16&markers=#{@event.latitude}%2C#{@event.longitude}" %>
 		<p>Price: <%=  number_to_currency(@event.ticket_price) %> / <%= @event.start %></p>
 		<p>Description <% @event.description %></p>  
