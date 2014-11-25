@@ -1,6 +1,6 @@
 <% @event.each do |e| %>
 <div class="row">
-	<div class="col-md-3 col-md-offset-2 clip-circle">
+	<div class="col-md-2 col-md-offset-3 clip-circle">
 		<%= link_to (image_tag e.avatar.url(:medium)), event_path(e.id) %>
 	</div>
 	<div class="col-md-5">
@@ -11,16 +11,6 @@
 		<% t = Chronic.parse(e.start) %>
 		<h4><%= e.ticket_price %> / <%= t.strftime("%H:%M")%> &nbsp; &nbsp; &nbsp; <%= link_to "More Details", event_path(e.id) %></h4>
 	</div>
-<div class="row">
-	<div class="col-md-8 col-md-offset-2">
-		<div class="col-md-4 col-md-offset-2">
-			
-		</div>
-		<div class="col-md-4 col-md-offset-2">
-			
-		</div>
-	</div>
-
-	</div>
-	<% end %>
+</div>
+<% end %>
 
