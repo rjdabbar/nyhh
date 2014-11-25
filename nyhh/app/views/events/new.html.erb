@@ -1,6 +1,7 @@
 
 <div class="row input_form">
   <div class="col-md-12">
+
     <%= form_for @event do |f| %>
     <p><%= f.text_field :event_name, placeholder:"Enter Event Name" %></p>
     <div id='input'>
@@ -39,9 +40,14 @@
     </div>
   </div>
 </div>
+ <% @event.errors.full_messages.each do |msg| %>
+          <li class="list-group-item list-group-item-danger"><%= msg %></li>
+        <% end %>
 
 <p><%= f.submit class:"btn" %></p>
 <% end %>
+
+        
 
 <script type="text/javascript">
 $(function () {

@@ -1,5 +1,6 @@
 require 'chronic'
 class EventsController < ApplicationController
+  
   def home
     events = Event.all
   end
