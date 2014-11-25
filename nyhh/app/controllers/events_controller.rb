@@ -7,8 +7,6 @@ class EventsController < ApplicationController
 
   def index
     today = params[:format]
- 
-    
     if today == '1'
       t = Time.now.to_s
       t = Chronic.parse(t).to_s
@@ -23,11 +21,6 @@ class EventsController < ApplicationController
     else 
       @event = Event.all  
     end
-
-    
-    # @event = events.sort_by &:created_at
-    
-    
   end
 
   def show
@@ -39,14 +32,12 @@ class EventsController < ApplicationController
   def new
     @event = Event.new
     @user = User.all
-
   end
 
   def create
     t = Chronic.parse(params[:event][:start]).to_s
     t = t.split
     t = t[0]
-    
     # Create a new event
     @event = Event.new(
       :event_name => params[:event][:event_name], 
@@ -67,6 +58,7 @@ class EventsController < ApplicationController
       :start => Chronic.parse(params[:event][:start]),
       :end => Chronic.parse(params[:event][:end])
       )
+
     
     if @event.save
       redirect_to events_path
@@ -113,7 +105,9 @@ class EventsController < ApplicationController
       :latitude,
       :longitude,
       :start_time,
-      :end_time
+      :end_time,
+      :venue, 
+      :url
       )
     end
 
