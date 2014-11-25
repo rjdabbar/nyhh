@@ -1,6 +1,9 @@
 <% @event.each do |e| %>
+
 <div class="row">
+
 	<div class="col-md-2 col-md-offset-3 clip-circle">
+		
 		<%= link_to (image_tag e.avatar.url(:medium)), event_path(e.id) %>
 	</div>
 	<div class="col-md-5">
