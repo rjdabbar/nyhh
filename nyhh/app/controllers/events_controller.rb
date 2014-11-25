@@ -1,6 +1,6 @@
 require 'chronic'
 class EventsController < ApplicationController
-  
+  before_action :authenticate_user!
   def home
     events = Event.all
   end
