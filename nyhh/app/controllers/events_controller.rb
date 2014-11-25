@@ -12,14 +12,16 @@ class EventsController < ApplicationController
       t = Chronic.parse(t).to_s
       t = t.split
       t = t[0]
-      @event = Event.where(date: t)
+      event = Event.where(date: t)
+      @event = event.where(approved: 't')
     elsif today == '2'
       t = Chronic.parse('tommorow').to_s
       t = t.split
       t = t[0]
-      @event = Event.where(date: t)  
+      event = Event.where(date: t) 
+      @event = event.where(approved: 't') 
     else 
-      @event = Event.all  
+      @event = Event.where(approved: 't')  
     end
   end
 
