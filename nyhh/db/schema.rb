@@ -62,6 +62,8 @@ ActiveRecord::Schema.define(version: 20141125175349) do
     t.text     "description"
     t.float    "latitude"
     t.float    "longitude"
+    t.datetime "start_time"
+    t.datetime "end_time"
     t.integer  "user_id"
     t.string   "approved"
     t.string   "date"
