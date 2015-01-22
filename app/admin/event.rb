@@ -18,6 +18,7 @@ ActiveAdmin.register Event do
       f.input :end
       f.input :venue
       f.input :url
+      f.submit
     end
 
   #  controller do 
