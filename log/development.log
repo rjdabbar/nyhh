@@ -89300,3 +89300,4093 @@ Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2015-0
 
 
 Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2015-01-22 11:04:36 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-12 12:33:56 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (26.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (3.2ms)[0m  SELECT "events".* FROM "events"  WHERE "events"."approved" = 't'
+  Rendered events/index.html.erb within layouts/application (34.1ms)
+Completed 200 OK in 3794ms (Views: 3743.5ms | ActiveRecord: 28.9ms)
+
+
+Started GET "/assets/bootstrap-datetimepicker.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:00 -0500
+
+
+Started GET "/assets/jquery-ui/theme.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:00 -0500
+
+
+Started GET "/assets/jquery-ui/core.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:00 -0500
+
+
+Started GET "/assets/jquery-ui/button.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:00 -0500
+
+
+Started GET "/assets/jquery-ui/datepicker.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:00 -0500
+
+
+Started GET "/assets/jquery-ui/accordion.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:00 -0500
+
+
+Started GET "/assets/jquery-ui/autocomplete.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:00 -0500
+
+
+Started GET "/assets/jquery-ui/menu.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:00 -0500
+
+
+Started GET "/assets/jquery-ui/draggable.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:00 -0500
+
+
+Started GET "/assets/jquery-ui/resizable.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:00 -0500
+
+
+Started GET "/assets/jquery-ui/dialog.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:00 -0500
+
+
+Started GET "/assets/jquery-ui/progressbar.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:00 -0500
+
+
+Started GET "/assets/jquery-ui/selectable.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:00 -0500
+
+
+Started GET "/assets/jquery-ui/selectmenu.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:00 -0500
+
+
+Started GET "/assets/jquery-ui/sortable.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:00 -0500
+
+
+Started GET "/assets/jquery-ui/slider.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:00 -0500
+
+
+Started GET "/assets/jquery-ui/spinner.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:00 -0500
+
+
+Started GET "/assets/jquery-ui/tabs.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:00 -0500
+
+
+Started GET "/assets/jquery-ui/tooltip.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:00 -0500
+
+
+Started GET "/assets/jquery-ui/base.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:00 -0500
+
+
+Started GET "/assets/jquery-ui/all.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/jquery-ui.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/bootstrap-datetimepicker.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/active_admin/lib/flash.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/active_admin/lib/modal_dialog.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/active_admin/ext/jquery-ui.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/active_admin/ext/jquery.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/gmaps-auto-complete.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/assets/nyhh.png" for 127.0.0.1 at 2015-02-12 12:34:01 -0500
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-02-12 12:34:48 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (16.7ms)
+Completed 200 OK in 653ms (Views: 642.6ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2015-02-12 12:34:51 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vW9BM7VWUGAkFU7vDSVOvPGLxrwljhBRBey9qxY4psE=", "user"=>{"email"=>"rjdabbar@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (36.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = 'rjdabbar@gmail.com'  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (25.8ms)[0m  [1mUPDATE "users" SET "current_sign_in_at" = $1, "sign_in_count" = $2, "updated_at" = $3 WHERE "users"."id" = 1[0m  [["current_sign_in_at", "2015-02-12 17:34:51.955158"], ["sign_in_count", 2], ["updated_at", "2015-02-12 17:34:51.956734"]]
+  [1m[35m (2.6ms)[0m  COMMIT
+Redirected to http://localhost:3000/events
+Completed 302 Found in 156ms (ActiveRecord: 65.4ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2015-02-12 12:34:52 -0500
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT "events".* FROM "events"  WHERE "events"."approved" = 't'[0m
+  Rendered events/index.html.erb within layouts/application (0.8ms)
+  [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 710ms (Views: 708.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/bootstrap-datetimepicker.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:52 -0500
+
+
+Started GET "/assets/jquery-ui/theme.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:52 -0500
+
+
+Started GET "/assets/jquery-ui/accordion.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:52 -0500
+
+
+Started GET "/assets/jquery-ui/button.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:52 -0500
+
+
+Started GET "/assets/jquery-ui/core.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:52 -0500
+
+
+Started GET "/assets/jquery-ui/autocomplete.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:52 -0500
+
+
+Started GET "/assets/jquery-ui/menu.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:52 -0500
+
+
+Started GET "/assets/jquery-ui/datepicker.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:52 -0500
+
+
+Started GET "/assets/jquery-ui/draggable.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:52 -0500
+
+
+Started GET "/assets/jquery-ui/resizable.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:52 -0500
+
+
+Started GET "/assets/jquery-ui/dialog.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:52 -0500
+
+
+Started GET "/assets/jquery-ui/progressbar.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:52 -0500
+
+
+Started GET "/assets/jquery-ui/selectable.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:52 -0500
+
+
+Started GET "/assets/jquery-ui/selectmenu.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:52 -0500
+
+
+Started GET "/assets/jquery-ui/sortable.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:52 -0500
+
+
+Started GET "/assets/jquery-ui/slider.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:52 -0500
+
+
+Started GET "/assets/jquery-ui/spinner.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:52 -0500
+
+
+Started GET "/assets/jquery-ui/tooltip.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:52 -0500
+
+
+Started GET "/assets/jquery-ui/tabs.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:52 -0500
+
+
+Started GET "/assets/jquery-ui/base.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:52 -0500
+
+
+Started GET "/assets/jquery-ui/all.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:52 -0500
+
+
+Started GET "/assets/jquery-ui.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:52 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:52 -0500
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:52 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:52 -0500
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2015-02-12 12:34:52 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:52 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:52 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:52 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:52 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:52 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:52 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:52 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:52 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:52 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:52 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:52 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:52 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/bootstrap-datetimepicker.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/active_admin/lib/flash.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/active_admin/lib/modal_dialog.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/active_admin/ext/jquery-ui.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/active_admin/ext/jquery.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/gmaps-auto-complete.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/assets/nyhh.png" for 127.0.0.1 at 2015-02-12 12:34:53 -0500
+
+
+Started GET "/events/new" for 127.0.0.1 at 2015-02-12 12:35:00 -0500
+Processing by EventsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered events/new.html.erb within layouts/application (21.5ms)
+Completed 200 OK in 618ms (Views: 615.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/twitter/fonts/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2015-02-12 12:35:01 -0500
+
+ActionController::RoutingError (No route matches [GET] "/assets/twitter/fonts/glyphicons-halflings-regular.woff"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.1ms)
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.5ms)
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (37.2ms)
+
+
+Started GET "/assets/twitter/fonts/glyphicons-halflings-regular.ttf" for 127.0.0.1 at 2015-02-12 12:35:01 -0500
+
+ActionController::RoutingError (No route matches [GET] "/assets/twitter/fonts/glyphicons-halflings-regular.ttf"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.7ms)
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (29.0ms)
+
+
+Started GET "/events/new" for 127.0.0.1 at 2015-02-12 12:56:22 -0500
+Processing by EventsController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered events/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 644ms (Views: 642.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap-datetimepicker.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/theme.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/accordion.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/autocomplete.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/button.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/core.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/datepicker.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/menu.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/draggable.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/resizable.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/dialog.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/progressbar.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/selectable.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/selectmenu.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/slider.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/sortable.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/spinner.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/tabs.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/tooltip.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/base.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/all.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/bootstrap-datetimepicker.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/active_admin/lib/flash.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/active_admin/lib/modal_dialog.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/active_admin/ext/jquery-ui.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/active_admin/ext/jquery.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/gmaps-auto-complete.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/nyhh.png" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/jquery-ui/ui-bg_flat_75_ffffff_40x100.png" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+
+Started GET "/assets/twitter/fonts/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+ActionController::RoutingError (No route matches [GET] "/assets/twitter/fonts/glyphicons-halflings-regular.woff"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.1ms)
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (29.6ms)
+
+
+Started GET "/assets/twitter/fonts/glyphicons-halflings-regular.ttf" for 127.0.0.1 at 2015-02-12 12:56:23 -0500
+
+ActionController::RoutingError (No route matches [GET] "/assets/twitter/fonts/glyphicons-halflings-regular.ttf"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.9ms)
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (30.9ms)
+
+
+Started POST "/events" for 127.0.0.1 at 2015-02-12 12:56:26 -0500
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"q9MzGVJ33C/0CdJjLk1xxkRHwlGtL0hVzo/3uPYuuVw=", "event"=>{"event_name"=>"", "location"=>"", "description"=>"", "borough"=>"", "venue"=>"", "url"=>"", "ticket_price"=>"", "featured"=>"false", "approved"=>"pending", "user_id"=>"1", "start"=>"", "end"=>""}, "commit"=>"Create Event"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+WARNING: Can't mass-assign protected attributes for Event: ticket_add_1, ticket_add_2
+	app/controllers/events_controller.rb:44:in `create'
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Redirected to http://localhost:3000/events/new
+Completed 302 Found in 13ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/events/new" for 127.0.0.1 at 2015-02-12 12:56:26 -0500
+Processing by EventsController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered events/new.html.erb within layouts/application (17.8ms)
+Completed 200 OK in 760ms (Views: 758.3ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/events" for 127.0.0.1 at 2015-02-12 12:56:26 -0500
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"q9MzGVJ33C/0CdJjLk1xxkRHwlGtL0hVzo/3uPYuuVw=", "event"=>{"event_name"=>"", "location"=>"", "description"=>"", "borough"=>"", "venue"=>"", "url"=>"", "ticket_price"=>"", "featured"=>"false", "approved"=>"pending", "user_id"=>"1", "start"=>"", "end"=>""}, "commit"=>"Create Event"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+WARNING: Can't mass-assign protected attributes for Event: ticket_add_1, ticket_add_2
+	app/controllers/events_controller.rb:44:in `create'
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Redirected to http://localhost:3000/events/new
+Completed 302 Found in 15ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/events/new" for 127.0.0.1 at 2015-02-12 12:56:26 -0500
+Processing by EventsController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered events/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 735ms (Views: 733.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap-datetimepicker.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:27 -0500
+
+
+Started GET "/assets/jquery-ui/core.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:27 -0500
+
+
+Started GET "/assets/jquery-ui/theme.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:27 -0500
+
+
+Started GET "/assets/jquery-ui/accordion.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:27 -0500
+
+
+Started GET "/assets/jquery-ui/menu.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:27 -0500
+
+
+Started GET "/assets/jquery-ui/autocomplete.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:27 -0500
+
+
+Started GET "/assets/jquery-ui/button.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:27 -0500
+
+
+Started GET "/assets/jquery-ui/datepicker.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:27 -0500
+
+
+Started GET "/assets/jquery-ui/draggable.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:27 -0500
+
+
+Started GET "/assets/jquery-ui/resizable.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:27 -0500
+
+
+Started GET "/assets/jquery-ui/dialog.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:27 -0500
+
+
+Started GET "/assets/jquery-ui/progressbar.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:27 -0500
+
+
+Started GET "/assets/jquery-ui/selectable.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:27 -0500
+
+
+Started GET "/assets/jquery-ui/selectmenu.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:27 -0500
+
+
+Started GET "/assets/jquery-ui/sortable.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:27 -0500
+
+
+Started GET "/assets/jquery-ui/slider.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:27 -0500
+
+
+Started GET "/assets/jquery-ui/spinner.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:27 -0500
+
+
+Started GET "/assets/jquery-ui/tabs.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:27 -0500
+
+
+Started GET "/assets/jquery-ui/tooltip.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:27 -0500
+
+
+Started GET "/assets/jquery-ui/base.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:27 -0500
+
+
+Started GET "/assets/jquery-ui/all.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:27 -0500
+
+
+Started GET "/assets/jquery-ui.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:27 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:27 -0500
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:27 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:27 -0500
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2015-02-12 12:56:27 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:27 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:27 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:27 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:27 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:27 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:27 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:27 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:27 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:27 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:27 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:27 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:27 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:27 -0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:27 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:27 -0500
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/bootstrap-datetimepicker.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/active_admin/lib/flash.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/active_admin/lib/modal_dialog.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/active_admin/ext/jquery-ui.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/active_admin/ext/jquery.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/gmaps-auto-complete.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/nyhh.png" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/jquery-ui/ui-bg_flat_75_ffffff_40x100.png" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+
+Started GET "/assets/twitter/fonts/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+ActionController::RoutingError (No route matches [GET] "/assets/twitter/fonts/glyphicons-halflings-regular.woff"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.9ms)
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.4ms)
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (29.4ms)
+
+
+Started GET "/assets/twitter/fonts/glyphicons-halflings-regular.ttf" for 127.0.0.1 at 2015-02-12 12:56:28 -0500
+
+ActionController::RoutingError (No route matches [GET] "/assets/twitter/fonts/glyphicons-halflings-regular.ttf"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.4ms)
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.7ms)
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (29.0ms)
+
+
+Started GET "/events/new" for 127.0.0.1 at 2015-02-12 13:22:08 -0500
+Processing by EventsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered events/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 733ms (Views: 731.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap-datetimepicker.css?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/jquery-ui/theme.css?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/jquery-ui/accordion.css?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/jquery-ui/menu.css?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/jquery-ui/core.css?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/jquery-ui/autocomplete.css?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/jquery-ui/button.css?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/jquery-ui/datepicker.css?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/jquery-ui/draggable.css?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/jquery-ui/resizable.css?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/jquery-ui/dialog.css?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/jquery-ui/progressbar.css?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/jquery-ui/selectable.css?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/jquery-ui/selectmenu.css?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/jquery-ui/sortable.css?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/jquery-ui/slider.css?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/jquery-ui/spinner.css?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/jquery-ui/tabs.css?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/jquery-ui/tooltip.css?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/jquery-ui/base.css?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/jquery-ui/all.css?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/jquery-ui.css?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/bootstrap-datetimepicker.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/active_admin/lib/flash.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/active_admin/lib/modal_dialog.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:09 -0500
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:10 -0500
+
+
+Started GET "/assets/active_admin/ext/jquery-ui.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:10 -0500
+
+
+Started GET "/assets/active_admin/ext/jquery.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:10 -0500
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:10 -0500
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:10 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:10 -0500
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:10 -0500
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:10 -0500
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:10 -0500
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:10 -0500
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:10 -0500
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:10 -0500
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:10 -0500
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:10 -0500
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:10 -0500
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:10 -0500
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:10 -0500
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:10 -0500
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:10 -0500
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:10 -0500
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:10 -0500
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:10 -0500
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:10 -0500
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:10 -0500
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:10 -0500
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:10 -0500
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:10 -0500
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:10 -0500
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:10 -0500
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:10 -0500
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:10 -0500
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:10 -0500
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:10 -0500
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:10 -0500
+
+
+Started GET "/assets/gmaps-auto-complete.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:10 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-12 13:22:10 -0500
+
+
+Started GET "/assets/nyhh.png" for 127.0.0.1 at 2015-02-12 13:22:10 -0500
+
+
+Started GET "/assets/jquery-ui/ui-bg_flat_75_ffffff_40x100.png" for 127.0.0.1 at 2015-02-12 13:22:10 -0500
+
+
+Started GET "/assets/twitter/fonts/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2015-02-12 13:22:10 -0500
+
+ActionController::RoutingError (No route matches [GET] "/assets/twitter/fonts/glyphicons-halflings-regular.woff"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.7ms)
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.9ms)
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (34.7ms)
+
+
+Started GET "/assets/twitter/fonts/glyphicons-halflings-regular.ttf" for 127.0.0.1 at 2015-02-12 13:22:10 -0500
+
+ActionController::RoutingError (No route matches [GET] "/assets/twitter/fonts/glyphicons-halflings-regular.ttf"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.1ms)
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (31.9ms)
+
+
+Started GET "/events/new" for 127.0.0.1 at 2015-02-12 13:28:10 -0500
+Processing by EventsController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered events/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 612ms (Views: 610.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap-datetimepicker.css?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/core.css?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/accordion.css?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/theme.css?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/button.css?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/autocomplete.css?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/menu.css?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/datepicker.css?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/draggable.css?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/resizable.css?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/dialog.css?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/progressbar.css?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/selectable.css?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/selectmenu.css?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/sortable.css?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/slider.css?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/spinner.css?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/tabs.css?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/tooltip.css?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/base.css?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/all.css?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui.css?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/bootstrap-datetimepicker.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/active_admin/lib/flash.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/active_admin/lib/modal_dialog.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/active_admin/ext/jquery-ui.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/active_admin/ext/jquery.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:11 -0500
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:12 -0500
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:12 -0500
+
+
+Started GET "/assets/gmaps-auto-complete.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:12 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-12 13:28:12 -0500
+
+
+Started GET "/assets/nyhh.png" for 127.0.0.1 at 2015-02-12 13:28:12 -0500
+
+
+Started GET "/assets/jquery-ui/ui-bg_flat_75_ffffff_40x100.png" for 127.0.0.1 at 2015-02-12 13:28:12 -0500
+
+
+Started GET "/assets/twitter/fonts/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2015-02-12 13:28:12 -0500
+
+ActionController::RoutingError (No route matches [GET] "/assets/twitter/fonts/glyphicons-halflings-regular.woff"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.2ms)
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (28.9ms)
+
+
+Started GET "/assets/twitter/fonts/glyphicons-halflings-regular.ttf" for 127.0.0.1 at 2015-02-12 13:28:12 -0500
+
+ActionController::RoutingError (No route matches [GET] "/assets/twitter/fonts/glyphicons-halflings-regular.ttf"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.4ms)
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (26.2ms)
+
+
+Started GET "/assets/jquery-ui/ui-bg_glass_75_dadada_1x400.png" for 127.0.0.1 at 2015-02-12 13:28:33 -0500
+
+
+Started POST "/events" for 127.0.0.1 at 2015-02-12 13:29:18 -0500
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"q9MzGVJ33C/0CdJjLk1xxkRHwlGtL0hVzo/3uPYuuVw=", "event"=>{"event_name"=>"Event 3", "location"=>"129 5th Avenue, Brooklyn, NY 11217, USA", "description"=>"THIS SIS ASFHIECNUWECN", "borough"=>"Brooklyn", "venue"=>"Rehash", "url"=>"www.rehashstudio.com", "ticket_price"=>"3.50", "featured"=>"false", "approved"=>"pending", "user_id"=>"1", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x000001017cf540 @tempfile=#<Tempfile:/var/folders/_j/b9snfk5d70bcpyf67r2md0cr0000gn/T/RackMultipart20150212-29472-1tckc6u>, @original_filename="machinery-BKND.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"event[avatar]\"; filename=\"machinery-BKND.png\"\r\nContent-Type: image/png\r\n">, "flyer"=>#<ActionDispatch::Http::UploadedFile:0x000001017cf4a0 @tempfile=#<Tempfile:/var/folders/_j/b9snfk5d70bcpyf67r2md0cr0000gn/T/RackMultipart20150212-29472-qe8ecp>, @original_filename="machinery-BKND.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"event[flyer]\"; filename=\"machinery-BKND.png\"\r\nContent-Type: image/png\r\n">, "start"=>"02/12/2015 1:29 PM", "end"=>"02/12/2015 1:29 PM"}, "commit"=>"Create Event"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+WARNING: Can't mass-assign protected attributes for Event: ticket_add_1, ticket_add_2
+	app/controllers/events_controller.rb:44:in `create'
+Command :: file -b --mime '/var/folders/_j/b9snfk5d70bcpyf67r2md0cr0000gn/T/e168d0eb8cae6f9fddd51e680130142220150212-29472-y5f8y9.png'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/_j/b9snfk5d70bcpyf67r2md0cr0000gn/T/e168d0eb8cae6f9fddd51e680130142220150212-29472-o23g7j.png[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/_j/b9snfk5d70bcpyf67r2md0cr0000gn/T/e168d0eb8cae6f9fddd51e680130142220150212-29472-o23g7j.png[0]'
+Command :: convert '/var/folders/_j/b9snfk5d70bcpyf67r2md0cr0000gn/T/e168d0eb8cae6f9fddd51e680130142220150212-29472-o23g7j.png[0]' -auto-orient -resize "300x300>" '/var/folders/_j/b9snfk5d70bcpyf67r2md0cr0000gn/T/e168d0eb8cae6f9fddd51e680130142220150212-29472-o23g7j20150212-29472-1qu8hs3'
+Command :: file -b --mime '/var/folders/_j/b9snfk5d70bcpyf67r2md0cr0000gn/T/e168d0eb8cae6f9fddd51e680130142220150212-29472-o23g7j20150212-29472-1qu8hs3'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/_j/b9snfk5d70bcpyf67r2md0cr0000gn/T/e168d0eb8cae6f9fddd51e680130142220150212-29472-o23g7j.png[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/_j/b9snfk5d70bcpyf67r2md0cr0000gn/T/e168d0eb8cae6f9fddd51e680130142220150212-29472-o23g7j.png[0]'
+Command :: convert '/var/folders/_j/b9snfk5d70bcpyf67r2md0cr0000gn/T/e168d0eb8cae6f9fddd51e680130142220150212-29472-o23g7j.png[0]' -auto-orient -resize "100x100>" '/var/folders/_j/b9snfk5d70bcpyf67r2md0cr0000gn/T/e168d0eb8cae6f9fddd51e680130142220150212-29472-o23g7j20150212-29472-izfsb1'
+Command :: file -b --mime '/var/folders/_j/b9snfk5d70bcpyf67r2md0cr0000gn/T/e168d0eb8cae6f9fddd51e680130142220150212-29472-o23g7j20150212-29472-izfsb1'
+Command :: file -b --mime '/var/folders/_j/b9snfk5d70bcpyf67r2md0cr0000gn/T/e168d0eb8cae6f9fddd51e680130142220150212-29472-zq4h4x.png'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/_j/b9snfk5d70bcpyf67r2md0cr0000gn/T/e168d0eb8cae6f9fddd51e680130142220150212-29472-g2wteh.png[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/_j/b9snfk5d70bcpyf67r2md0cr0000gn/T/e168d0eb8cae6f9fddd51e680130142220150212-29472-g2wteh.png[0]'
+Command :: convert '/var/folders/_j/b9snfk5d70bcpyf67r2md0cr0000gn/T/e168d0eb8cae6f9fddd51e680130142220150212-29472-g2wteh.png[0]' -auto-orient -resize "300x300>" '/var/folders/_j/b9snfk5d70bcpyf67r2md0cr0000gn/T/e168d0eb8cae6f9fddd51e680130142220150212-29472-g2wteh20150212-29472-b67qa2'
+Command :: file -b --mime '/var/folders/_j/b9snfk5d70bcpyf67r2md0cr0000gn/T/e168d0eb8cae6f9fddd51e680130142220150212-29472-g2wteh20150212-29472-b67qa2'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/_j/b9snfk5d70bcpyf67r2md0cr0000gn/T/e168d0eb8cae6f9fddd51e680130142220150212-29472-g2wteh.png[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/_j/b9snfk5d70bcpyf67r2md0cr0000gn/T/e168d0eb8cae6f9fddd51e680130142220150212-29472-g2wteh.png[0]'
+Command :: convert '/var/folders/_j/b9snfk5d70bcpyf67r2md0cr0000gn/T/e168d0eb8cae6f9fddd51e680130142220150212-29472-g2wteh.png[0]' -auto-orient -resize "100x100>" '/var/folders/_j/b9snfk5d70bcpyf67r2md0cr0000gn/T/e168d0eb8cae6f9fddd51e680130142220150212-29472-g2wteh20150212-29472-kj29qg'
+Command :: file -b --mime '/var/folders/_j/b9snfk5d70bcpyf67r2md0cr0000gn/T/e168d0eb8cae6f9fddd51e680130142220150212-29472-g2wteh20150212-29472-kj29qg'
+  [1m[35m (0.1ms)[0m  BEGIN
+Command :: file -b --mime '/var/folders/_j/b9snfk5d70bcpyf67r2md0cr0000gn/T/e168d0eb8cae6f9fddd51e680130142220150212-29472-1kcldd5.png'
+Command :: file -b --mime '/var/folders/_j/b9snfk5d70bcpyf67r2md0cr0000gn/T/e168d0eb8cae6f9fddd51e680130142220150212-29472-96z2x5.png'
+  [1m[36mSQL (2.1ms)[0m  [1mINSERT INTO "events" ("approved", "avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "borough", "created_at", "date", "description", "end", "event_name", "featured", "flyer_content_type", "flyer_file_name", "flyer_file_size", "flyer_updated_at", "latitude", "location", "longitude", "start", "ticket_price", "updated_at", "url", "user_id", "venue") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21, $22, $23, $24, $25) RETURNING "id"[0m  [["approved", "pending"], ["avatar_content_type", "image/png"], ["avatar_file_name", "machinery-BKND.png"], ["avatar_file_size", 331870], ["avatar_updated_at", "2015-02-12 18:29:18.889688"], ["borough", "Brooklyn"], ["created_at", "2015-02-12 18:29:19.629579"], ["date", "2015-02-12"], ["description", "THIS SIS ASFHIECNUWECN"], ["end", "2015-02-12 18:29:00.000000"], ["event_name", "Event 3"], ["featured", "f"], ["flyer_content_type", "image/png"], ["flyer_file_name", "machinery-BKND.png"], ["flyer_file_size", 331870], ["flyer_updated_at", "2015-02-12 18:29:19.157917"], ["latitude", 40.67860599999999], ["location", "129 5th Avenue, Brooklyn, NY 11217, USA"], ["longitude", -73.9786759], ["start", "2015-02-12 18:29:00.000000"], ["ticket_price", "3.50"], ["updated_at", "2015-02-12 18:29:19.629579"], ["url", "www.rehashstudio.com"], ["user_id", 1], ["venue", "Rehash"]]
+  [1m[35m (6.4ms)[0m  COMMIT
+Redirected to http://localhost:3000/events
+Completed 302 Found in 792ms (ActiveRecord: 8.8ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2015-02-12 13:29:19 -0500
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.0ms)[0m  [1mSELECT "events".* FROM "events"  WHERE "events"."approved" = 't'[0m
+  Rendered events/index.html.erb within layouts/application (2.7ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 686ms (Views: 683.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/bootstrap-datetimepicker.css?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/theme.css?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/core.css?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/accordion.css?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/menu.css?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/button.css?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/autocomplete.css?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/datepicker.css?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/draggable.css?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/resizable.css?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/dialog.css?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/progressbar.css?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/selectable.css?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/selectmenu.css?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/sortable.css?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/slider.css?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/spinner.css?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/tabs.css?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/tooltip.css?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/base.css?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/all.css?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui.css?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/bootstrap-datetimepicker.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/active_admin/lib/flash.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/active_admin/lib/modal_dialog.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/active_admin/ext/jquery-ui.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/active_admin/ext/jquery.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/gmaps-auto-complete.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/assets/nyhh.png" for 127.0.0.1 at 2015-02-12 13:29:20 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-12 13:29:22 -0500
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT "events".* FROM "events"  WHERE "events"."approved" = 't'[0m
+  Rendered events/index.html.erb within layouts/application (1.4ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 612ms (Views: 610.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2015-02-12 13:29:23 -0500
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT "events".* FROM "events"  WHERE "events"."approved" = 't'[0m
+  Rendered events/index.html.erb within layouts/application (0.7ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 586ms (Views: 585.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2015-02-12 13:29:24 -0500
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT "events".* FROM "events"  WHERE "events"."approved" = 't'[0m
+  Rendered events/index.html.erb within layouts/application (0.7ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 611ms (Views: 610.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2015-02-12 13:29:27 -0500
+Processing by Admin::DashboardController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/admin/login" for 127.0.0.1 at 2015-02-12 13:29:27 -0500
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/bundler/gems/activeadmin-54bede0558a9/app/views/active_admin/devise/shared/_links.erb (1.2ms)
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/bundler/gems/activeadmin-54bede0558a9/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (33.1ms)
+Completed 200 OK in 293ms (Views: 284.6ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2015-02-12 13:29:27 -0500
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:27 -0500
+
+
+Started GET "/assets/active_admin/print.css?body=1" for 127.0.0.1 at 2015-02-12 13:29:27 -0500
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:27 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:27 -0500
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:27 -0500
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:27 -0500
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:27 -0500
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:27 -0500
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:27 -0500
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:27 -0500
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:28 -0500
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:28 -0500
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:28 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:28 -0500
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:28 -0500
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:28 -0500
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:28 -0500
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:28 -0500
+
+
+Started GET "/assets/active_admin/lib/flash.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:28 -0500
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:28 -0500
+
+
+Started GET "/assets/active_admin/lib/modal_dialog.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:28 -0500
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:28 -0500
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:28 -0500
+
+
+Started GET "/assets/active_admin/ext/jquery-ui.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:28 -0500
+
+
+Started GET "/assets/active_admin/ext/jquery.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:28 -0500
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:28 -0500
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:28 -0500
+
+
+Started POST "/admin/login" for 127.0.0.1 at 2015-02-12 13:29:38 -0500
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"q9MzGVJ33C/0CdJjLk1xxkRHwlGtL0hVzo/3uPYuuVw=", "admin_user"=>{"email"=>"rjdabbar@rehashstudio.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (2.2ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users"  WHERE "admin_users"."email" = 'rjdabbar@rehashstudio.com'  ORDER BY "admin_users"."id" ASC LIMIT 1[0m
+Completed 401 Unauthorized in 4ms
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"q9MzGVJ33C/0CdJjLk1xxkRHwlGtL0hVzo/3uPYuuVw=", "admin_user"=>{"email"=>"rjdabbar@rehashstudio.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+WARNING: Can't mass-assign protected attributes for AdminUser: remember_me
+
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/bundler/gems/activeadmin-54bede0558a9/app/views/active_admin/devise/shared/_links.erb (0.3ms)
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/bundler/gems/activeadmin-54bede0558a9/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (18.6ms)
+Completed 200 OK in 273ms (Views: 194.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2015-02-12 13:29:38 -0500
+
+
+Started GET "/assets/active_admin/print.css?body=1" for 127.0.0.1 at 2015-02-12 13:29:38 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:38 -0500
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:38 -0500
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:38 -0500
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:38 -0500
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:38 -0500
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:38 -0500
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:38 -0500
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:38 -0500
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:38 -0500
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:38 -0500
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:38 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:39 -0500
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:39 -0500
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:39 -0500
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:39 -0500
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:39 -0500
+
+
+Started GET "/assets/active_admin/lib/flash.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:39 -0500
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:39 -0500
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:39 -0500
+
+
+Started GET "/assets/active_admin/lib/modal_dialog.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:39 -0500
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:39 -0500
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:39 -0500
+
+
+Started GET "/assets/active_admin/ext/jquery-ui.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:39 -0500
+
+
+Started GET "/assets/active_admin/ext/jquery.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:39 -0500
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:39 -0500
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2015-02-12 13:29:39 -0500
+  [1m[36mEvent Load (0.8ms)[0m  [1mSELECT  "events".* FROM "events"   ORDER BY "events"."id" DESC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "events" SET "approved" = $1, "updated_at" = $2 WHERE "events"."id" = 1[0m  [["approved", "t"], ["updated_at", "2015-02-12 18:30:51.710387"]]
+  [1m[35m (5.8ms)[0m  COMMIT
+
+
+Started GET "/admin/login" for 127.0.0.1 at 2015-02-12 13:30:55 -0500
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/bundler/gems/activeadmin-54bede0558a9/app/views/active_admin/devise/shared/_links.erb (0.3ms)
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/bundler/gems/activeadmin-54bede0558a9/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (21.7ms)
+Completed 200 OK in 221ms (Views: 219.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2015-02-12 13:30:55 -0500
+
+
+Started GET "/assets/active_admin/print.css?body=1" for 127.0.0.1 at 2015-02-12 13:30:55 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-12 13:30:55 -0500
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2015-02-12 13:30:55 -0500
+
+
+Started GET "/admin" for 127.0.0.1 at 2015-02-12 13:30:57 -0500
+Processing by Admin::DashboardController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/admin/login" for 127.0.0.1 at 2015-02-12 13:30:57 -0500
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/bundler/gems/activeadmin-54bede0558a9/app/views/active_admin/devise/shared/_links.erb (0.3ms)
+  Rendered /Users/rjdabbar/.rvm/gems/ruby-2.1.0/bundler/gems/activeadmin-54bede0558a9/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (21.3ms)
+Completed 200 OK in 197ms (Views: 196.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2015-02-12 13:30:57 -0500
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2015-02-12 13:30:57 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-12 13:30:57 -0500
+
+
+Started GET "/assets/active_admin/print.css?body=1" for 127.0.0.1 at 2015-02-12 13:30:57 -0500
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2015-02-12 13:30:57 -0500
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2015-02-12 13:30:57 -0500
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2015-02-12 13:30:57 -0500
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2015-02-12 13:30:57 -0500
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2015-02-12 13:30:57 -0500
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2015-02-12 13:30:57 -0500
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2015-02-12 13:30:57 -0500
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2015-02-12 13:30:57 -0500
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2015-02-12 13:30:57 -0500
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2015-02-12 13:30:57 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-12 13:30:57 -0500
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2015-02-12 13:30:57 -0500
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 127.0.0.1 at 2015-02-12 13:30:57 -0500
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-02-12 13:30:57 -0500
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 127.0.0.1 at 2015-02-12 13:30:57 -0500
+
+
+Started GET "/assets/active_admin/lib/flash.js?body=1" for 127.0.0.1 at 2015-02-12 13:30:57 -0500
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 127.0.0.1 at 2015-02-12 13:30:57 -0500
+
+
+Started GET "/assets/active_admin/lib/modal_dialog.js?body=1" for 127.0.0.1 at 2015-02-12 13:30:57 -0500
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 127.0.0.1 at 2015-02-12 13:30:57 -0500
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-02-12 13:30:57 -0500
+
+
+Started GET "/assets/active_admin/ext/jquery-ui.js?body=1" for 127.0.0.1 at 2015-02-12 13:30:57 -0500
+
+
+Started GET "/assets/active_admin/ext/jquery.js?body=1" for 127.0.0.1 at 2015-02-12 13:30:57 -0500
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2015-02-12 13:30:57 -0500
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2015-02-12 13:30:57 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-12 13:30:59 -0500
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.3ms)[0m  SELECT "events".* FROM "events"  WHERE "events"."approved" = 't'
+  Rendered events/index.html.erb within layouts/application (4.8ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 634ms (Views: 632.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/bootstrap-datetimepicker.css?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/theme.css?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/core.css?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/accordion.css?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/menu.css?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/autocomplete.css?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/button.css?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/datepicker.css?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/draggable.css?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/resizable.css?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/dialog.css?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/progressbar.css?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/selectable.css?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/selectmenu.css?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/sortable.css?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/slider.css?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/spinner.css?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/tabs.css?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/tooltip.css?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/base.css?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/all.css?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui.css?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/active_admin.css?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/bootstrap-datetimepicker.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/active_admin/lib/batch_actions.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/active_admin/lib/flash.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/active_admin/lib/has_many.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/active_admin/lib/modal_dialog.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/active_admin/lib/popover.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/active_admin/ext/jquery-ui.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/active_admin/ext/jquery.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/gmaps-auto-complete.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/assets/nyhh.png" for 127.0.0.1 at 2015-02-12 13:31:00 -0500
+
+
+Started GET "/events/1" for 127.0.0.1 at 2015-02-12 13:31:42 -0500
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mEvent Load (0.3ms)[0m  SELECT  "events".* FROM "events"  WHERE "events"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered events/show.html.erb within layouts/application (9.2ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 590ms (Views: 587.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-12 16:15:38 -0500
+
+PG::ConnectionBad - could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+:
+  activerecord (4.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:888:in `connect'
+  activerecord (4.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:568:in `initialize'
+  activerecord (4.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `postgresql_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:435:in `new_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:445:in `checkout_new_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:416:in `acquire_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.5) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.5) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.5) lib/active_record/migration.rb:388:in `check_pending!'
+  activerecord (4.1.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/1f2f00f3b9598e84/variables" for 127.0.0.1 at 2015-02-12 16:15:38 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-12 16:16:12 -0500
+
+PG::ConnectionBad - could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+:
+  activerecord (4.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:888:in `connect'
+  activerecord (4.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:568:in `initialize'
+  activerecord (4.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `postgresql_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:435:in `new_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:445:in `checkout_new_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:416:in `acquire_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.5) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.5) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.5) lib/active_record/migration.rb:388:in `check_pending!'
+  activerecord (4.1.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/e4c6a98a93f000d0/variables" for 127.0.0.1 at 2015-02-12 16:16:13 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-12 16:16:13 -0500
+
+PG::ConnectionBad - could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+:
+  activerecord (4.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:888:in `connect'
+  activerecord (4.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:568:in `initialize'
+  activerecord (4.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `postgresql_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:435:in `new_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:445:in `checkout_new_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:416:in `acquire_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.5) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.5) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.5) lib/active_record/migration.rb:388:in `check_pending!'
+  activerecord (4.1.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/6d71af5b4ab991c7/variables" for 127.0.0.1 at 2015-02-12 16:16:13 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-12 16:16:14 -0500
+
+PG::ConnectionBad - could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+:
+  activerecord (4.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:888:in `connect'
+  activerecord (4.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:568:in `initialize'
+  activerecord (4.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `postgresql_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:435:in `new_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:445:in `checkout_new_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:416:in `acquire_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.5) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.5) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.5) lib/active_record/migration.rb:388:in `check_pending!'
+  activerecord (4.1.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/44b77a4dfb9eae40/variables" for 127.0.0.1 at 2015-02-12 16:16:14 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-12 16:16:14 -0500
+
+PG::ConnectionBad - could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+:
+  activerecord (4.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:888:in `connect'
+  activerecord (4.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:568:in `initialize'
+  activerecord (4.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `postgresql_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:435:in `new_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:445:in `checkout_new_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:416:in `acquire_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.5) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.5) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.5) lib/active_record/migration.rb:388:in `check_pending!'
+  activerecord (4.1.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/93e47938bcaf8dcc/variables" for 127.0.0.1 at 2015-02-12 16:16:14 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-12 16:16:15 -0500
+
+PG::ConnectionBad - could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+:
+  activerecord (4.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:888:in `connect'
+  activerecord (4.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:568:in `initialize'
+  activerecord (4.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `postgresql_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:435:in `new_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:445:in `checkout_new_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:416:in `acquire_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.5) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.5) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.5) lib/active_record/migration.rb:388:in `check_pending!'
+  activerecord (4.1.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/0696ec838effaed0/variables" for 127.0.0.1 at 2015-02-12 16:16:15 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-12 16:16:15 -0500
+
+PG::ConnectionBad - could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+:
+  activerecord (4.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:888:in `connect'
+  activerecord (4.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:568:in `initialize'
+  activerecord (4.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `postgresql_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:435:in `new_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:445:in `checkout_new_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:416:in `acquire_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.5) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.5) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.5) lib/active_record/migration.rb:388:in `check_pending!'
+  activerecord (4.1.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/e521a28e51b86e36/variables" for 127.0.0.1 at 2015-02-12 16:16:15 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-12 16:16:15 -0500
+
+PG::ConnectionBad - could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+:
+  activerecord (4.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:888:in `connect'
+  activerecord (4.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:568:in `initialize'
+  activerecord (4.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `postgresql_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:435:in `new_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:445:in `checkout_new_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:416:in `acquire_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.5) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.5) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.5) lib/active_record/migration.rb:388:in `check_pending!'
+  activerecord (4.1.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/4adb854f67c86df1/variables" for 127.0.0.1 at 2015-02-12 16:16:15 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-12 16:16:15 -0500
+
+PG::ConnectionBad - could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+:
+  activerecord (4.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:888:in `connect'
+  activerecord (4.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:568:in `initialize'
+  activerecord (4.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `postgresql_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:435:in `new_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:445:in `checkout_new_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:416:in `acquire_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.5) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.5) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.5) lib/active_record/migration.rb:388:in `check_pending!'
+  activerecord (4.1.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/0a7e1264728b2fb2/variables" for 127.0.0.1 at 2015-02-12 16:16:16 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-12 16:16:16 -0500
+
+PG::ConnectionBad - could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+:
+  activerecord (4.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:888:in `connect'
+  activerecord (4.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:568:in `initialize'
+  activerecord (4.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `postgresql_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:435:in `new_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:445:in `checkout_new_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:416:in `acquire_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.5) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.5) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.5) lib/active_record/migration.rb:388:in `check_pending!'
+  activerecord (4.1.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/13e90185224bea17/variables" for 127.0.0.1 at 2015-02-12 16:16:16 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-12 16:16:16 -0500
+
+PG::ConnectionBad - could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+:
+  activerecord (4.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:888:in `connect'
+  activerecord (4.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:568:in `initialize'
+  activerecord (4.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `postgresql_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:435:in `new_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:445:in `checkout_new_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:416:in `acquire_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.5) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.5) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.5) lib/active_record/migration.rb:388:in `check_pending!'
+  activerecord (4.1.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/dd9fefaeb5a0994e/variables" for 127.0.0.1 at 2015-02-12 16:16:16 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-12 16:16:16 -0500
+
+PG::ConnectionBad - could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+:
+  activerecord (4.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:888:in `connect'
+  activerecord (4.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:568:in `initialize'
+  activerecord (4.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `postgresql_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:435:in `new_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:445:in `checkout_new_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:416:in `acquire_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.5) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.5) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.5) lib/active_record/migration.rb:388:in `check_pending!'
+  activerecord (4.1.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/fdba56f6668fc64c/variables" for 127.0.0.1 at 2015-02-12 16:16:16 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-12 17:19:23 -0500
+
+PG::ConnectionBad - could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+:
+  activerecord (4.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:888:in `connect'
+  activerecord (4.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:568:in `initialize'
+  activerecord (4.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `postgresql_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:435:in `new_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:445:in `checkout_new_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:416:in `acquire_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.5) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.5) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.5) lib/active_record/migration.rb:388:in `check_pending!'
+  activerecord (4.1.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/7f70e5911748f84a/variables" for 127.0.0.1 at 2015-02-12 17:19:23 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-12 17:45:25 -0500
+
+PG::ConnectionBad - could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+:
+  activerecord (4.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:888:in `connect'
+  activerecord (4.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:568:in `initialize'
+  activerecord (4.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `postgresql_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:435:in `new_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:445:in `checkout_new_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:416:in `acquire_connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.5) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.5) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.5) lib/active_record/migration.rb:388:in `check_pending!'
+  activerecord (4.1.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+   () Users/rjdabbar/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/8239b521cfd29ab7/variables" for 127.0.0.1 at 2015-02-12 17:45:25 -0500
