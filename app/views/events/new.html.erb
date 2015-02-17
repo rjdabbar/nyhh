@@ -1,74 +1,71 @@
-    <div class="container">
-<div class="row input_form">
-  <div class="col-md-12">
+<div class="container">
+  <div class="row input_form">
+    <div class="col-sm-6">
+      <h1 class="text-left">Post a New York Hip-Hop Event</h1>
+      <p class="text-left">Enter all of the details below and we will list your event as soon as we can. Questions? Hit us up at <a href="mailto:help@newyorkhiphop.com">help@newyorkhiphop.com</a> Please note that we ONLY list HIP-HOP events (parties, concerts, etc) in NYC.</p>
 
-    <%= form_for @event do |f| %>
-    <p><%= f.text_field :event_name, placeholder:"Enter Event Name" %></p>
-    <div id='input'>
-      <%= f.text_field :location, :id => 'gmaps-input-address', :placeholder => 'Enter Address Here' %>
+      <% @event.errors.full_messages.each do |msg| %>
+        <li class="list-group-item list-group-item-danger"><%= msg %></li>
+      <% end %>
+
     </div>
 
-    <p><%= f.text_area :description, placeholder:"Enter Description" %></p>
-    <p><%= f.select :borough, [ 'Manhattan', 'Brooklyn', 'Queens', 'Bronx', 'Staten Island' ], prompt:"Borough" %></p>
-    <p><%= f.text_field :venue, placeholder:"Enter Venue Name" %></p>
-    <p><%= f.text_field :url, placeholder:"Enter Event Webiste/URL" %></p>
-    <p><%= f.text_field :ticket_price, placeholder:"Ticket Price" %></p>
-    <p><%= f.hidden_field :featured, value:'false' %></p>
-    <p><%= f.hidden_field :approved, value:'pending' %></p>
-    <p><%= f.hidden_field :user_id, value: current_user.id %></p>
-  </div>
-  </div>
-  </div>
-    <div class="container">
-      <div class="row input_form">
-        <div class='col-sm-6'>
-          <div class="form-group">
-    <p><%= f.file_field :avatar, placeholder: 'avatar' %></p>
-    <p><%= f.file_field :flyer %></p>
-
-          </div>
-        </div>
+    <div class="col-sm-6">
+      <%= form_for @event do |f| %>
+      <h2>Who?</h2>
+      <p><%= f.text_field :event_name, placeholder:"Event Name" %></p>
+      <h2>What?</h2>
+      <p><%= f.text_area :description, placeholder:"Enter Description" %></p>
+      <p><%= f.file_field :avatar, placeholder: 'avatar' %></p>
+      <p><%= f.file_field :flyer %></p>
+      <h2>Where?</h2>
+      <p class="text-left"><%= f.select :borough, [ 'Manhattan', 'Brooklyn', 'Queens', 'Bronx', 'Staten Island' ], prompt:"Borough" %></p>
+      <p><%= f.text_field :venue, placeholder:"Venue" %></p>
+      <div id='input'>
+        <%= f.text_field :location, :id => 'gmaps-input-address', :placeholder => 'Venue Address' %>
       </div>
-    </div>
+      <p><%= f.text_field :url, placeholder:"Event Webiste/URL" %></p>
+      <h2>How Much?</h2>
+      <p><%= f.text_field :ticket_price, placeholder:"Ticket Price" %></p>
+      <p><%= f.hidden_field :featured, value:'false' %></p>
+      <p><%= f.hidden_field :approved, value:'pending' %></p>
+      <p><%= f.hidden_field :user_id, value: current_user.id %></p>
 
-    <div class="container">
-      <div class="row input_form">
-        <div class='col-sm-6'>
-          <div class="form-group">
-            <div class='input-group date' id='datetimepicker1'>
-              <%= f.text_field :start, class:"form-control", placeholder:'Start Time/Date' %>
-              <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
-            </span>
-          </div>
-        </div>
+      <h2>When?</h2>
+      <div class='input-group date' id='datetimepicker1'>
+        <%= f.text_field :start, class:"form-control", placeholder:'Start Time/Date' %>
+        <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
+        </span>
       </div>
-    </div>
-    <div class="row">
-      <div class='col-sm-6'>
-        <div class="form-group">
-          <div class='input-group date' id='datetimepicker2'>
-            <%= f.text_field :end, class:"form-control", placeholder:'End Time/Date' %>
-            <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
-          </span>
-        </div>
+      <div class='input-group date' id='datetimepicker2'>
+        <%= f.text_field :end, class:"form-control", placeholder:'End Time/Date' %>
+        <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
+        </span>
       </div>
     </div>
   </div>
+  <div class="row input_form">
+    <div class="col-sm-6 col-sm-offset-6">
+      <p></p>
+      <p class="text-left"><%= f.submit class:"btn" %></p>
+      <p></p>
+      <p></p>
+      <% end %>
+    </div>
+      <p></p>
+      <p></p>
+    
+  </div>
+      <p></p>
+      <p></p>
+
+  <script type="text/javascript">
+  $(function () {
+    $('#datetimepicker1').datetimepicker();
+  });
+  $(function () {
+    $('#datetimepicker2').datetimepicker();
+  });
+  </script>
+
 </div>
- <% @event.errors.full_messages.each do |msg| %>
-          <li class="list-group-item list-group-item-danger"><%= msg %></li>
-        <% end %>
-
-<p><%= f.submit class:"btn" %></p>
-<% end %>
-
-
-
-<script type="text/javascript">
-$(function () {
-  $('#datetimepicker1').datetimepicker();
-});
-$(function () {
-  $('#datetimepicker2').datetimepicker();
-});
-</script>

@@ -35,10 +35,12 @@
 .navbar! {
 	border-radius: 0px;
 }
-.nav_title ul li a {
+.nav_title ul li a, .nav_title a, .nav_title a:link, .nav_title a:visited {
 	text-decoration: none;
 	color: #000;
-
+	text-transform: lowercase;
+	letter-spacing: -2px;
+  font-size: 3em;
 }
 .nav_title ul li{
 	list-style-type: none;
@@ -59,4 +61,10 @@
     10px 10px 60px 10px #000 inset;
 }
 
-
+h1, h2, h3, h4, h5, h6 {
+	letter-spacing: -2px;
+	font-weight: 600;
+	text-align: left;
+	text-transform: lowercase;
+	font-size: 2em;
+}
