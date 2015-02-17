@@ -1,7 +1,7 @@
 ActiveAdmin.register Event do
     
     form do |f|
-      f.select :approved, options_for_select([["Select One", ""], "Cell", "Work", "Office", "Home", "Other"]), :class => 'genForm_dropBox'
+      f.select :approved, options_for_select([["Select One", ""], "pending", "f", "t"]), :class => 'genForm_dropBox'
       f.input :event_name 
       f.input :location 
       f.input :borough
