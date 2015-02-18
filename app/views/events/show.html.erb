@@ -8,22 +8,19 @@
 
 <hr>    
 <div class="row">
-	<div class="col-md-9 col-md-offset-3">
-		<h2><%= @event.event_name %></h2>
-	</div>
-</div>
-<div class="row">
 	<div class="col-md-3 col-md-offset-3">
 		<%= image_tag @event.avatar.url(:medium) %>
 	</div>
 
 	<div class="col-md-4">
-		<h3><%= @event.venue %></h3>
-		<hr>
-		<p><%= @event.location %></p>
-		<%= image_tag "http://maps.google.com/maps/api/staticmap?size=300x150&sensor=false&zoom=16&markers=#{@event.latitude}%2C#{@event.longitude}" %>
+		<h2><%= @event.date %></h2>
+		<h1><%= @event.event_name %></h1>
 		<p>Price: <%=  number_to_currency(@event.ticket_price) %> / <%= @event.start %></p>
 		<p>Description <% @event.description %></p>  
+		<hr>
+		<h3><%= @event.venue %></h3>
+		<p><%= @event.location %></p>
+		<%= image_tag "http://maps.google.com/maps/api/staticmap?size=300x150&sensor=false&zoom=16&markers=#{@event.latitude}%2C#{@event.longitude}" %>
 
 	</div>
 </div>
