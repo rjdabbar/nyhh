@@ -13,17 +13,6 @@
     <div class="row">
         <%= link_to (image_tag "nyhh.png"), root_path %>
     </div>
-    <div class="row">  
-      <div class="col-sm-3 col-sm-offset-9">
-        <% if user_signed_in? %>
-        <%= link_to('Sign Out', destroy_user_session_path, :method => :delete) %>
-        <% else %>
-        <%= link_to('Sign In', new_user_session_path) %>
-        <%= link_to('Sign Up', new_user_registration_path) %>
-        <% end %>
-        <%= link_to('New Event', new_event_path) %>
-      </div>
-    </div>
     <div class="row">
       <div class="col-md-12 nav_title">
         <%= link_to('TODAY', events_path('1')) %> / 
@@ -47,6 +36,18 @@
   </div><!-- /.container-fluid -->
 </nav>
 <%= yield %>
+
+<div class="row">  
+  <div class="col-xs-12 text-center" style="margin:50px auto; border-top: 1px solid #efefef; padding-top:20px;">
+    <% if user_signed_in? %>
+    <%= link_to('Sign Out', destroy_user_session_path, :method => :delete) %>
+    <% else %>
+    <%= link_to('Sign In', new_user_session_path) %>
+    <%= link_to('Sign Up', new_user_registration_path) %>
+    <% end %>
+    <%= link_to('New Event', new_event_path) %>
+  </div>
+</div>
 
 </body>
 </html>
