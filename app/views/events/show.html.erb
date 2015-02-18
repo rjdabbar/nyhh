@@ -22,7 +22,7 @@
 		<hr>
 		<p><%= @event.location %></p>
 		<%= image_tag "http://maps.google.com/maps/api/staticmap?size=300x150&sensor=false&zoom=16&markers=#{@event.latitude}%2C#{@event.longitude}" %>
-		<p>Price: <%=  number_to_currency(@event.ticket_price) %> / <%= @event.start %></p>
+		<p>Price: <%=  number_to_currency(@event.ticket_price) %> / <%= Chronic.parse(@event.start).to_formatted_s(:long) %></p>
 		<p>Description <% @event.description %></p>  
 
 	</div>

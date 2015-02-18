@@ -13,11 +13,11 @@
     <div class="col-sm-6">
       <%= form_for @event do |f| %>
       <h2>Who?</h2>
-      <p><%= f.text_field :event_name, placeholder:"Event Name" %></p>
+      <p><%= f.text_field :event_name, placeholder:"Event Name", id:"required" %></p>
       <h2>What?</h2>
-      <p><%= f.text_area :description, placeholder:"Enter Description" %></p>
-      <p><%= f.file_field :avatar, placeholder: 'avatar' %></p>
-      <p><%= f.file_field :flyer %></p>
+      <p><%= f.text_area :description, placeholder:"Enter Description", id:"required" %></p>
+      <p><%= f.file_field :avatar, placeholder: 'avatar', id:"required" %></p>
+      <p><%= f.file_field :flyer, id:"required" %></p>
       <h2>Where?</h2>
       <p class="text-left"><%= f.select :borough, [ 'Manhattan', 'Brooklyn', 'Queens', 'Bronx', 'Staten Island' ], prompt:"Borough" %></p>
       <p><%= f.text_field :venue, placeholder:"Venue" %></p>
@@ -47,7 +47,7 @@
   <div class="row input_form">
     <div class="col-sm-6 col-sm-offset-6">
       <p></p>
-      <p class="text-left"><%= f.submit class:"btn", data: { confirm: "Are you sure you want to submit this form?" } %></p>
+      <p class="text-left"><%= f.submit class:"btn" %></p>
       <p></p>
       <p></p>
       <% end %>
@@ -58,6 +58,7 @@
   </div>
       <p></p>
       <p></p>
+
 
   <script type="text/javascript">
   $(function () {
