@@ -32,8 +32,9 @@ class EventsController < ApplicationController
   end
 
   def new
+
     @event = Event.new
-    @user = User.all
+    
   end
 
   def create

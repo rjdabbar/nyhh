@@ -11,3 +11,7 @@ jQuery(function() {
     country: "us"
   });
 });
+
+$('.redirect_to_new').on('click', function(){
+	window.location.href="/events/new";
+})

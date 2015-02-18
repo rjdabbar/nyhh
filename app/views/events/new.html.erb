@@ -4,9 +4,7 @@
       <h1 class="text-left">Post a New York Hip-Hop Event</h1>
       <p class="text-left">Enter all of the details below and we will list your event as soon as we can. Questions? Hit us up at <a href="mailto:help@newyorkhiphop.com">help@newyorkhiphop.com</a> Please note that we ONLY list HIP-HOP events (parties, concerts, etc) in NYC.</p>
 
-      <% @event.errors.full_messages.each do |msg| %>
-        <li class="list-group-item list-group-item-danger"><%= msg %></li>
-      <% end %>
+      
 
     </div>
 
@@ -47,7 +45,7 @@
   <div class="row input_form">
     <div class="col-sm-6 col-sm-offset-6">
       <p></p>
-      <p class="text-left"><%= f.submit class:"btn" %></p>
+      <p class="text-left"><%= f.submit 'submit', class:"btn" %></p>
       <p></p>
       <p></p>
       <% end %>
@@ -61,6 +59,20 @@
 
 
   <script type="text/javascript">
+
+    jQuery(function() {
+      var completer;
+
+      completer = new GmapsCompleter({
+        inputField: '#gmaps-input-address',
+        errorField: '#gmaps-error'
+      });
+
+      completer.autoCompleteInit({
+        country: "us"
+      });
+    });
+
   $(function () {
     $('#datetimepicker1').datetimepicker();
   });
