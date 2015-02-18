@@ -67,9 +67,11 @@ class EventsController < ApplicationController
 
     
     if @event.save
-      redirect_to events_path
+      redirect_to events_path, notice: 'Your event is now pending approval!' 
+      
     else
-      redirect_to new_event_path
+      redirect_to new_event_path, notice: 'Your submission has one or more errors.'
+      
     end
   end
 
