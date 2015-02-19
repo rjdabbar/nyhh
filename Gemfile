@@ -18,7 +18,7 @@ gem 'spring',            group: :development
 gem "better_errors",     group: :development
 gem "binding_of_caller", group: :development
 gem 'libv8'
-gem 'less-rails'  
+gem 'less-rails'
 gem 'therubyracer'
 gem 'twitter-bootstrap-rails'
 gem 'activeadmin', github: 'activeadmin'
@@ -30,6 +30,7 @@ gem 'bootstrap3-datetimepicker-rails', '~> 3.1.3'
 gem 'bootstrap-datepicker-rails'
 # Paperclip is for attachments
 gem "paperclip", "~> 4.2"
+gem 'aws-sdk'
 # Geocoder to help with google maps linking
 gem "geocoder"
 # Added for attr_accessible
@@ -48,4 +49,3 @@ gem 'chronic'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-

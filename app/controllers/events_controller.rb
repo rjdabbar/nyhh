@@ -18,10 +18,10 @@ class EventsController < ApplicationController
       t = Chronic.parse('tommorow').to_s
       t = t.split
       t = t[0]
-      event = Event.where(date: t) 
-      @event = event.where(approved: 't') 
-    else 
-      @event = Event.where(approved: 't')  
+      event = Event.where(date: t)
+      @event = event.where(approved: 't')
+    else
+      @event = Event.where(approved: 't')
     end
   end
 
@@ -34,7 +34,7 @@ class EventsController < ApplicationController
   def new
 
     @event = Event.new
-    
+
   end
 
   def create
@@ -43,12 +43,12 @@ class EventsController < ApplicationController
     t = t[0]
     # Create a new event
     @event = Event.new(
-      :event_name => params[:event][:event_name], 
-      :location => params[:event][:location], 
+      :event_name => params[:event][:event_name],
+      :location => params[:event][:location],
       :borough => params[:event][:borough],
-      :ticket_price => params[:event][:ticket_price], 
-      :ticket_add_1 => params[:event][:ticket_add_1], 
-      :ticket_add_2 => params[:event][:ticket_add_2], 
+      :ticket_price => params[:event][:ticket_price],
+      :ticket_add_1 => params[:event][:ticket_add_1],
+      :ticket_add_2 => params[:event][:ticket_add_2],
       :featured => params[:event][:featured],
       :user_id => params[:event][:user_id],
       :date => t,
@@ -66,13 +66,17 @@ class EventsController < ApplicationController
       :url => params[:event][:url]
       )
 
-    
+
     if @event.save
-      redirect_to events_path, notice: 'Your event is now pending approval!' 
-      
+
+      redirect_to events_path, notice: 'Your event is now pending approval!'
+      raise
+
     else
+
       redirect_to new_event_path, notice: 'Your submission has one or more errors.'
-      
+      raise
+
     end
   end
 
@@ -90,14 +94,14 @@ class EventsController < ApplicationController
 
   def permitted_params
      params.require(:event).permit(
-      :event_name, 
-      :location, 
-      :borough, 
+      :event_name,
+      :location,
+      :borough,
       :start_time,
       :end_time,
-      :ticket_price, 
-      :ticket_add_1, 
-      :ticket_add_2, 
+      :ticket_price,
+      :ticket_add_1,
+      :ticket_add_2,
       :featured,
       :user_id,
       :avatar_file_name,
@@ -115,7 +119,7 @@ class EventsController < ApplicationController
       :longitude,
       :start_time,
       :end_time,
-      :venue, 
+      :venue,
       :url
       )
     end
