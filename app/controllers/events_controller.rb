@@ -21,7 +21,9 @@ class EventsController < ApplicationController
       event = Event.where(date: t)
       @event = event.where(approved: 't')
     else
-      @event = Event.where(approved: 't')
+      t = Chronic.parse('today')
+
+      @event = Event.current_events
     end
   end
 

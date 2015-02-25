@@ -23,11 +23,20 @@ class Event < ActiveRecord::Base
 
   end
 
-  def current_events
+  def self.current_events
     today = Chronic.parse('today')
     events = Event.all.where(approved: "t")
 
-    
+    current = []
+
+    events.each do |e|
+      if Chronic.parse(e.start) > today
+        current << e
+      end
+    end
+
+    current
+
 
   end
 
