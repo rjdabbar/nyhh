@@ -9,4 +9,10 @@ class Event < ActiveRecord::Base
 	attr_accessible :event_name, :location, :borough,:ticket_price,:featured,:user_id,:avatar_file_name,:date,:approved,:avatar,:flyer,:description,:latitude,:longitude,:start,:end,:venue,:url
 
 
+  def order_dates
+  
+
+  end
+
+
 end
