@@ -1,0 +1,26 @@
+
+<style>
+#map-canvas {
+	width: 300px;
+	height: 150px;
+}
+</style>
+
+<hr>
+<div class="row">
+	<div class="col-md-3 col-md-offset-3">
+		<%= image_tag @event.avatar.url(:medium) %>
+	</div>
+
+	<div class="col-md-4">
+		<h2><%= Chronic.parse(@event.date).to_formatted_s(:custom)%></h2>
+		<h1><%= @event.event_name %></h1>
+		<p>Price: <%=  @event.ticket_price %> / <%= Chronic.parse(@event.start).to_formatted_s(:long) %></p>
+		<p><%= @event.description %></p>
+		<hr>
+		<h3><%= @event.venue %></h3>
+		<p><%= @event.location %></p>
+		<%= image_tag "http://maps.google.com/maps/api/staticmap?size=300x150&sensor=false&zoom=16&markers=#{@event.latitude}%2C#{@event.longitude}" %>
+	</div>
+</div>
+<hr>

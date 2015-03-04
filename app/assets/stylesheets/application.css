@@ -1,0 +1,76 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+ 
+ *= require bootstrap-datetimepicker
+ *= require jquery-ui
+ *= require_self
+ *= require_tree .
+ 
+*/
+
+.body {
+	background-color: #919191;
+	background-size: cover;
+}
+.landing_title {
+	color: white;
+	text-align: center;
+	padding-top: 5%;
+}
+.landing_desc {
+	color: white;
+	text-align: center;
+	padding-top: 1%;
+	
+}
+.navigation_bar {
+	background-color: #919191;
+	text-align: center;
+	padding-top: 1%; 
+	margin-bottom: 5%;
+}
+.navigation_bar .logo img {
+	width:25%;
+}
+.navbar! {
+	border-radius: 0px;
+}
+.nav_title ul li a, .nav_title a, .nav_title a:link, .nav_title a:visited {
+	text-decoration: none;
+	color: #000;
+	text-transform: lowercase;
+	letter-spacing: -2px;
+  font-size: 3em;
+}
+.nav_title ul li{
+	list-style-type: none;
+	display:  inline;
+	font-size: 40px;
+	text-decoration: none;
+	margin-top: 3%;
+}
+.listing_avatar {
+	width: 100%;
+}
+
+.clip-circle img {
+	width: 145px;
+	height: 145px;
+	border-radius:50%;
+	box-shadow:
+    10px 10px 60px 10px #000 inset;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	letter-spacing: -1px;
+	font-weight: 600;
+	text-align: left;
+	text-transform: lowercase;
+	font-size: 2em;
+}
+
+.row {
+	margin-bottom: 6em;
+}

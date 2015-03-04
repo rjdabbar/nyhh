@@ -1,0 +1,92 @@
+<div class="container">
+  <div class="row input_form">
+    <div class="col-sm-6">
+      <h1 class="text-left">Post a New York Hip-Hop Event</h1>
+      <p class="text-left">Enter all of the details below and we will list your event as soon as we can. Questions? Hit us up at <a href="mailto:help@newyorkhiphop.com">help@newyorkhiphop.com</a> Please note that we ONLY list HIP-HOP events (parties, concerts, etc) in NYC.</p>
+
+
+
+    </div>
+
+    <div class="col-sm-6">
+      <%= form_for @event do |f| %>
+      <h2>Who? <span>*</span></h2>
+      <p><%= f.text_field :event_name, placeholder:"Event Name", id:"required" %></p>
+      <h2>What? <span>*</span></h2>
+      <p><%= f.text_area :description, placeholder:"Enter Description", id:"required" %></p>
+      <h2>Flyer/Event Image? <span>*</span></h2>
+      <p><%= f.file_field :avatar, placeholder: 'avatar', id:"required" %></p>
+      <p><%= f.file_field :flyer, id:"required" %></p>
+      <p>(both images required, can be same image)</p>
+      <h2>Where?</h2>
+      <p class="text-left"><%= f.select :borough, [ 'Manhattan', 'Brooklyn', 'Queens', 'Bronx', 'Staten Island' ], prompt:"Borough" %></p>
+      <p><%= f.text_field :venue, placeholder:"Venue" %></p>
+      <div id='input'>
+        <%= f.text_field :location, :id => 'gmaps-input-address', :placeholder => 'Venue Address' %>
+      </div>
+      <p><%= f.text_field :url, placeholder:"Event Webiste/URL" %></p>
+      <h2>How Much?</h2>
+      <p><%= f.text_field :ticket_price, placeholder:"Ticket Price" %></p>
+      <p><%= f.hidden_field :featured, value:'false' %></p>
+      <p><%= f.hidden_field :approved, value:'pending' %></p>
+      <p><%= f.hidden_field :user_id, value: current_user.id %></p>
+
+      <h2>When?</h2>
+      <div class='input-group date' id='datetimepicker1'>
+        <%= f.text_field :start, class:"form-control", placeholder:'Start Time/Date' %>
+        <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
+        </span>
+      </div>
+      <div class='input-group date' id='datetimepicker2'>
+        <%= f.text_field :end, class:"form-control", placeholder:'End Time/Date' %>
+        <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="row input_form">
+    <div class="col-sm-6 col-sm-offset-6">
+      <p></p>
+      <p class="text-left"><%= f.submit 'submit', class:"btn" %></p>
+      <p></p>
+      <p></p>
+      <% end %>
+    </div>
+      <p></p>
+      <p></p>
+
+  </div>
+      <p></p>
+      <p></p>
+
+
+  <script type="text/javascript">
+
+    jQuery(function() {
+      var completer;
+
+      completer = new GmapsCompleter({
+        inputField: '#gmaps-input-address',
+        errorField: '#gmaps-error'
+      });
+
+      completer.autoCompleteInit({
+        country: "us"
+      });
+    });
+
+  $(function () {
+    $('#datetimepicker1').datetimepicker();
+  });
+  $(function () {
+    $('#datetimepicker2').datetimepicker();
+  });
+  </script>
+
+  <script>
+      <% if params[:notice].present? %>
+        alert(<%= params[:notice] %>);
+      <% end %>
+  </script>
+
+</div>

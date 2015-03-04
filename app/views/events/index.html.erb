@@ -1,0 +1,36 @@
+<% @event.each do |e| %>
+	<% if e.featured == true %>
+		<div class="row row-event-featured row-event">
+			<div class="col-md-2 col-md-offset-3 clip-circle">
+				<%= link_to (image_tag e.avatar.url(:medium)), event_path(e.id) %>
+			</div>
+			<div class="col-md-5">
+				<h4><%= Chronic.parse(e.date).to_formatted_s(:custom) %>
+				<h2><%= link_to e.event_name, event_path(e.id) %></h2>
+				<hr>
+				<h3><%= e.venue %><image src="data:image/jpeg;base64,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"/></h3>
+				<hr>
+				<% t = Chronic.parse(e.start) %>
+				<h4><%= e.ticket_price %> / <%= t.strftime("%H:%M")%> &nbsp; &nbsp; &nbsp; <%= link_to "More Details", event_path(e.id) %></h4>
+			</div>
+		</div>
+	<% end %>
+<% end %>
+<% @event.each do |e| %>
+	<% if e.featured == false %>
+		<div class="row row-event">
+			<div class="col-md-2 col-md-offset-3 clip-circle">
+				<%= link_to (image_tag e.avatar.url(:medium)), event_path(e.id) %>
+			</div>
+			<div class="col-md-5">
+				<h4><%= Chronic.parse(e.date).to_formatted_s(:custom) %>
+				<hr>
+				<h2><%= link_to e.event_name, event_path(e.id) %></h2>
+				<hr>
+				<h3><%= e.venue %></h3>
+				<% t = Chronic.parse(e.start) %>
+				<h4>$<%= e.ticket_price %> / <%= t.strftime("%H:%M")%> &nbsp; &nbsp; &nbsp; <%= link_to "More Details", event_path(e.id) %></h4>
+			</div>
+		</div>
+	<% end %>
+<% end %>
