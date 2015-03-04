@@ -1,6 +1,7 @@
 <% @event.each do |e| %>
 	<% if e.featured == true %>
 		<div class="row row-event-featured row-event">
+		<div class="row">
 			<div class="col-md-2 col-md-offset-3 clip-circle">
 				<%= link_to (image_tag e.avatar.url(:medium)), event_path(e.id) %>
 			</div>
@@ -19,6 +20,7 @@
 <% @event.each do |e| %>
 	<% if e.featured == false %>
 		<div class="row row-event">
+		<div class="row">
 			<div class="col-md-2 col-md-offset-3 clip-circle">
 				<%= link_to (image_tag e.avatar.url(:medium)), event_path(e.id) %>
 			</div>
@@ -28,6 +30,11 @@
 				<h2><%= link_to e.event_name, event_path(e.id) %></h2>
 				<hr>
 				<h3><%= e.venue %></h3>
+				<h4><%= e.date %>
+				<h2><%= link_to e.event_name, event_path(e.id) %></h2>
+				<hr>
+				<h3><%= e.venue %></h3>
+				<hr>
 				<% t = Chronic.parse(e.start) %>
 				<h4>$<%= e.ticket_price %> / <%= t.strftime("%H:%M")%> &nbsp; &nbsp; &nbsp; <%= link_to "More Details", event_path(e.id) %></h4>
 			</div>

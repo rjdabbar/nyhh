@@ -6,7 +6,10 @@
 }
 </style>
 
+
 <hr>
+<hr>    
+
 <div class="row">
 	<div class="col-md-3 col-md-offset-3">
 		<%= image_tag @event.avatar.url(:medium) %>
@@ -17,6 +20,10 @@
 		<h1><%= @event.event_name %></h1>
 		<p>Price: <%=  @event.ticket_price %> / <%= Chronic.parse(@event.start).to_formatted_s(:long) %></p>
 		<p><%= @event.description %></p>
+		<h2><%= @event.date %></h2>
+		<h1><%= @event.event_name %></h1>
+		<p>Price: <%=  number_to_currency(@event.ticket_price) %> / <%= Chronic.parse(@event.start).to_formatted_s(:long) %></p>
+		<p>Description <% @event.description %></p> 
 		<hr>
 		<h3><%= @event.venue %></h3>
 		<p><%= @event.location %></p>

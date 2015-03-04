@@ -10,13 +10,32 @@ class Event < ActiveRecord::Base
 
 
 
+
   def self.order_dates
     Event.all.where(approved: "t").sort_by(&:start)
   end
 
   def self.current_events(events)
     today = Chronic.parse('today')
-    # events = Event.all.where(approved: "t")
+
+  def order_dates
+    events = Event.all.where(approved: "t")
+    ordered_events = []
+
+    events.each do |e|
+      e.start = Chronic.parse(e.start)
+      ordered_events << e
+    end
+
+    ordered_events.sort_by(&:start)
+
+
+  end
+
+  def self.current_events
+    today = Chronic.parse('today')
+    events = Event.all.where(approved: "t")
+
 
     current = []
 
@@ -30,8 +49,5 @@ class Event < ActiveRecord::Base
 
 
   end
-
-
-
 
 end

@@ -5,6 +5,7 @@
   <meta name="description" content="New York Hip Hop Keeps You Connected To Hip Hop Culture In NYC">
   <meta name="keywords" content="New York Hip Hop, New York, NY, Hiphop, Hip Hop, Rap, Music, Festival, Nightlife, Night Life, Venues, Shows, Party, Parties, New York Parties, DJ, DeeJay, DJay, Disc Jockey, Events, New York Events, Clubs">
 
+  <title>Nyhh</title>
   <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
@@ -13,7 +14,11 @@
 <body class="body">
 <nav class="navbar navigation_bar" role="navigation">
   <div class="container-fluid">
+
     <div class="row logo">
+
+    <div class="row">
+
         <%= link_to (image_tag "nyhh.png"), root_path %>
     </div>
     <div class="row">
@@ -43,6 +48,7 @@
 <div class="row">  
   <div class="col-xs-12 text-center" style="margin:50px auto; border-top: 1px solid #efefef; padding-top:20px;">
     <% if user_signed_in? %>
+
     <%= link_to('Sign Out', destroy_user_session_path, :method => :delete) %> &nbsp;&nbsp;|&nbsp;&nbsp; 
     <% else %>
     <%= link_to('Sign In', new_user_session_path) %> &nbsp;&nbsp;|&nbsp;&nbsp;
@@ -53,10 +59,19 @@
       <p class="text-center">&nbsp;</p>
       <button><%= link_to 'Add Event', new_event_path, class:"redirect_to_new",'data-no-turbolink' => true %></button>
     </div>
+
+    <%= link_to('Sign Out', destroy_user_session_path, :method => :delete) %>
+    <% else %>
+    <%= link_to('Sign In', new_user_session_path) %>
+    <%= link_to('Sign Up', new_user_registration_path) %>
+    <% end %>
+    <%= link_to 'New Event', new_event_path, class:"redirect_to_new",'data-no-turbolink' => true %>
+
   </div>
 </div>
 
 </body>
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -67,4 +82,5 @@
   ga('send', 'pageview');
 
 </script>
+
 </html>

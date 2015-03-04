@@ -11,6 +11,7 @@
 */
 
 .body {
+
 	background-color: #919191;
 	background-size: cover;
 }
@@ -33,6 +34,10 @@
 }
 .navigation_bar .logo img {
 	width:25%;
+	background-color: white;
+	text-align: center;
+	padding-top: 1%; 
+	margin-bottom: 5%;
 }
 .navbar! {
 	border-radius: 0px;
@@ -65,6 +70,7 @@
 
 h1, h2, h3, h4, h5, h6 {
 	letter-spacing: -1px;
+	letter-spacing: -2px;
 	font-weight: 600;
 	text-align: left;
 	text-transform: lowercase;

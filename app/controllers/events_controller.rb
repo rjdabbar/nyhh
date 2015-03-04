@@ -22,8 +22,8 @@ class EventsController < ApplicationController
       @event = event.where(approved: 't')
     else
       t = Chronic.parse('today')
-
       @event = Event.current_events(Event.order_dates)
+      @event = Event.current_events
     end
   end
 
@@ -73,6 +73,16 @@ class EventsController < ApplicationController
       redirect_to events_path, notice: 'Your event is now pending approval!'
     else
       redirect_to new_event_path, notice: 'Your submission has one or more errors.'
+
+
+      redirect_to events_path, notice: 'Your event is now pending approval!'
+      raise
+
+    else
+
+      redirect_to new_event_path, notice: 'Your submission has one or more errors.'
+      raise
+
     end
   end
 

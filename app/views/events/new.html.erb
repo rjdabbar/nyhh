@@ -18,6 +18,12 @@
       <p><%= f.file_field :avatar, placeholder: 'avatar', id:"required" %></p>
       <p><%= f.file_field :flyer, id:"required" %></p>
       <p>(both images required, can be same image)</p>
+      <h2>Who?</h2>
+      <p><%= f.text_field :event_name, placeholder:"Event Name", id:"required" %></p>
+      <h2>What?</h2>
+      <p><%= f.text_area :description, placeholder:"Enter Description", id:"required" %></p>
+      <p><%= f.file_field :avatar, placeholder: 'avatar', id:"required" %></p>
+      <p><%= f.file_field :flyer, id:"required" %></p>
       <h2>Where?</h2>
       <p class="text-left"><%= f.select :borough, [ 'Manhattan', 'Brooklyn', 'Queens', 'Bronx', 'Staten Island' ], prompt:"Borough" %></p>
       <p><%= f.text_field :venue, placeholder:"Venue" %></p>
